@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Skeleton, Text, CalculateIcon, useModal } from '@pancakeswap/uikit'
+import { Box, Button, Flex, Skeleton, Text, CalculateIcon, useModal } from '@kiwanoswap/uikit'
 import Balance from 'components/Balance'
 import { useTranslation } from 'contexts/Localization'
 import { DeserializedPool, DeserializedLockedVaultUser } from 'state/types'
@@ -26,7 +26,7 @@ const CakeVaultApr: React.FC<CakeVaultAprProps> = ({ pool, userData, vaultPositi
 
   return (
     <>
-      <Box mb="10px">
+      <Box marginX="8px" mb="8px">
         <Flex justifyContent="space-between">
           <Text fontSize="16px" color="textSubtle" textAlign="left">
             {t('Flexible APY')}
@@ -53,7 +53,7 @@ const CakeVaultApr: React.FC<CakeVaultAprProps> = ({ pool, userData, vaultPositi
           )}
         </Flex>
       </Box>
-      <Box mb="10px">
+      <Box marginX="8px" mb="8px">
         <Flex justifyContent="space-between">
           <Text fontSize="16px" color="textSubtle" textAlign="left">
             {t('Locked APY')}

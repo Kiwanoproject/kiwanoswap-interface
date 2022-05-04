@@ -12,7 +12,7 @@ import {
   TimerIcon,
   useTooltip,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@kiwanoswap/uikit'
 import { BASE_BSC_SCAN_URL } from 'config'
 import { getBscScanLink } from 'utils'
 import { useCurrentBlock } from 'state/block/hooks'

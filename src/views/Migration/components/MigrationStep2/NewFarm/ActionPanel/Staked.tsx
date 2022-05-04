@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import BigNumber from 'bignumber.js'
 import { useTranslation } from 'contexts/Localization'
-import { Heading, Text } from '@pancakeswap/uikit'
+import { Heading, Text } from '@kiwanoswap/uikit'
 import Balance from 'components/Balance'
 import { ActionContainer, ActionContent, ActionTitles } from 'views/Pools/components/PoolsTable/ActionPanel/styles'
 import { usePriceCakeBusd } from 'state/farms/hooks'
@@ -38,7 +38,7 @@ const Staked: React.FC<StakedProps> = ({ earned, farm }) => {
     <Container>
       <ActionTitles>
         <Text bold textTransform="uppercase" color="secondary" fontSize="12px" pr="4px">
-          {`CAKE ${t('Earned')}`}
+          {`WANO ${t('Earned')}`}
         </Text>
       </ActionTitles>
       <ActionContent>

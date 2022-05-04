@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Text, Flex, Box, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Text, Flex, Box, useMatchBreakpoints } from '@kiwanoswap/uikit'
 import Balance from 'components/Balance'
 import { useTranslation } from 'contexts/Localization'
 import BaseCell, { CellContent } from 'views/Pools/components/PoolsTable/Cells/BaseCell'
@@ -21,7 +21,7 @@ const StyledCell = styled(BaseCell)`
 const AutoEarningsCell: React.FC<AutoEarningsCellProps> = ({ hasEarnings, earningTokenBalance }) => {
   const { t } = useTranslation()
   const { isMobile } = useMatchBreakpoints()
-  const labelText = t('Recent CAKE profit')
+  const labelText = t('Recent WANO profit')
 
   return (
     <StyledCell role="cell">

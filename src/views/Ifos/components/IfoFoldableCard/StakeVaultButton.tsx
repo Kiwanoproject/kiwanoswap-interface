@@ -1,4 +1,4 @@
-import { Button } from '@pancakeswap/uikit'
+import { Button } from '@kiwanoswap/uikit'
 
 import { useTranslation } from 'contexts/Localization'
 
@@ -7,7 +7,7 @@ const StakeVaultButton = (props) => {
 
   return (
     <Button {...props} disabled>
-      {t('Stake CAKE in IFO pool')}
+      {t('Stake WANO in IFO pool')}
     </Button>
   )
 }

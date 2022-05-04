@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Text, Flex, Heading, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Text, Flex, Heading, useMatchBreakpoints } from '@kiwanoswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import Balance from 'components/Balance'
 import { ActionContainer, ActionTitles, ActionContent } from 'views/Pools/components/PoolsTable/ActionPanel/styles'
@@ -26,14 +26,14 @@ const AutoEarning: React.FunctionComponent<AutoEarningProps> = ({
 
   const actionTitle = (
     <Text fontSize="12px" bold color="secondary" as="span" textTransform="uppercase">
-      {t('Recent CAKE profit')}
+      {t('Recent WANO profit')}
     </Text>
   )
 
   if (isMobile) {
     return (
       <Flex justifyContent="space-between">
-        <Text>{t('Recent CAKE profit')}</Text>
+        <Text>{t('Recent WANO profit')}</Text>
         <Flex height="20px" alignItems="center">
           {earningTokenBalance > 0 ? (
             <Balance fontSize="16px" value={earningTokenBalance} decimals={5} />

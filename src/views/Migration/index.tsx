@@ -1,7 +1,7 @@
 import React, { memo, useState, useRef, useMemo } from 'react'
 import { useRouter } from 'next/router'
 import { useWeb3React } from '@web3-react/core'
-import { Heading, Text, Button, ArrowForwardIcon, Link } from '@pancakeswap/uikit'
+import { Heading, Text, Button, ArrowForwardIcon, Link } from '@kiwanoswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { usePollFarmsV1WithUserData } from 'state/farmsV1/hooks'
 import { VaultKey } from 'state/types'
@@ -26,12 +26,12 @@ const MigrationPage: React.FC = () => {
     {
       stepId: ProgressStepsType.STEP1,
       canHover: true,
-      text: t('Unstake LP tokens and CAKE from the old MasterChef contract.'),
+      text: t('Unstake LP tokens and WANO from the old MasterChef contract.'),
     },
     {
       stepId: ProgressStepsType.STEP2,
       canHover: true,
-      text: t('Stake LP tokens and CAKE to the new MasterChef v2 contract.'),
+      text: t('Stake LP tokens and WANO to the new MasterChef v2 contract.'),
     },
   ]
 

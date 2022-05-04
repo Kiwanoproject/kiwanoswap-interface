@@ -33,13 +33,14 @@ import {
   getPancakeSquadContract,
   getErc721CollectionContract,
   getBunnySpecialXmasContract,
+  getGalaxyNTFClaimingContract,
 } from 'utils/contractHelpers'
 import { getMulticallAddress } from 'utils/addressHelpers'
 import { Erc20, Erc20Bytes32, Multicall, Weth, Cake, Erc721collection, CakeVaultV2 } from 'config/abi/types'
 
 // Imports below migrated from Exchange useContract.ts
 import { Contract } from '@ethersproject/contracts'
-import { WETH } from '@pancakeswap/sdk'
+import { WETH } from '@kiwanoswap/sdk'
 import IPancakePairABI from '../config/abi/IPancakePair.json'
 import { ERC20_BYTES32_ABI } from '../config/abi/erc20'
 import ERC20_ABI from '../config/abi/erc20.json'
@@ -74,9 +75,12 @@ export const useERC20 = (address: string, withSignerIfPossible = true) => {
 /**
  * @see https://docs.openzeppelin.com/contracts/3.x/api/token/erc721
  */
-export const useERC721 = (address: string) => {
-  const { library } = useActiveWeb3React()
-  return useMemo(() => getErc721Contract(address, library.getSigner()), [address, library])
+export const useERC721 = (address: string, withSignerIfPossible = true) => {
+  const { library, account } = useActiveWeb3React()
+  return useMemo(
+    () => getErc721Contract(address, withSignerIfPossible ? getProviderOrSigner(library, account) : null),
+    [address, library, withSignerIfPossible, account],
+  )
 }
 
 export const useCake = (): { reader: Cake; signer: Cake } => {
@@ -221,6 +225,11 @@ export const useBunnySpecialXmasContract = () => {
 export const useAnniversaryAchievementContract = () => {
   const { library } = useActiveWeb3React()
   return useMemo(() => getAnniversaryAchievementContract(library.getSigner()), [library])
+}
+
+export const useGalaxyNFTClaimingContract = () => {
+  const { library } = useActiveWeb3React()
+  return useMemo(() => getGalaxyNTFClaimingContract(library.getSigner()), [library])
 }
 
 export const useNftSaleContract = () => {

@@ -1,4 +1,6 @@
-# 🥞 Pancake Frontend
+This is just a Clone of Pancakeswap Frontend
+
+ # 🥞 KiwanoSwap Interface
 
 This project contains the main features of the pancake application.
 

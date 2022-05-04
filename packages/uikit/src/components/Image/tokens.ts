@@ -3,13 +3,13 @@
  */
 const tokens = {
   cake: {
-    symbol: "CAKE",
+    symbol: "WANO",
     address: {
-      56: "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
-      97: "0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe",
+      56: "0x4eEC1Dc3a43d8F53A36d4A416fC30b1B6C287d13",
+      97: "0x4eEC1Dc3a43d8F53A36d4A416fC30b1B6C287d13",
     },
     decimals: 18,
-    projectLink: "https://pancakeswap.finance/",
+    projectLink: "/",
   },
   txl: {
     symbol: "TXL",
@@ -441,7 +441,7 @@ const tokens = {
       97: "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
     },
     decimals: 18,
-    projectLink: "https://pancakeswap.finance/",
+    projectLink: "/",
   },
   blink: {
     symbol: "BLINK",
@@ -585,7 +585,7 @@ const tokens = {
       97: "0xfE1e507CeB712BDe086f3579d2c03248b2dB77f9",
     },
     decimals: 18,
-    projectLink: "https://pancakeswap.finance/",
+    projectLink: "/",
   },
   bifi: {
     symbol: "BIFI",
