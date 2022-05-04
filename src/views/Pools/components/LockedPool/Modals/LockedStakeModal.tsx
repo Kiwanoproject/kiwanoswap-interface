@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Modal, Box } from '@pancakeswap/uikit'
+import { Modal, Box } from '@kiwanoswap/uikit'
 import useTheme from 'hooks/useTheme'
 import { useBUSDCakeAmount } from 'hooks/useBUSDPrice'
 import { useTranslation } from 'contexts/Localization'
@@ -25,7 +25,7 @@ const LockedStakeModal: React.FC<GenericModalProps> = ({
 
   return (
     <RoiCalculatorModalProvider lockedAmount={lockedAmount}>
-      <Modal title={t('Lock CAKE')} onDismiss={onDismiss} headerBackground={theme.colors.gradients.cardHeader}>
+      <Modal title={t('Lock WANO')} onDismiss={onDismiss} headerBackground={theme.colors.gradients.cardHeader}>
         <Box mb="16px">
           <BalanceField
             stakingAddress={stakingToken.address}

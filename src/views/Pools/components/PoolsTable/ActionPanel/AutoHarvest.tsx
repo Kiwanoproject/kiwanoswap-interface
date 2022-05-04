@@ -1,4 +1,4 @@
-import { Text, Flex, Skeleton, Heading, Box, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Text, Flex, Skeleton, Heading, Box, useMatchBreakpoints } from '@kiwanoswap/uikit'
 import { useWeb3React } from '@web3-react/core'
 import { getCakeVaultEarnings } from 'views/Pools/helpers'
 import { useTranslation } from 'contexts/Localization'
@@ -10,7 +10,7 @@ import { useVaultApy } from 'hooks/useVaultApy'
 
 import { ActionContainer, ActionTitles, ActionContent, RowActionContainer } from './styles'
 import UnstakingFeeCountdownRow from '../../CakeVaultCard/UnstakingFeeCountdownRow'
-import useUserDataInVaultPrensenter from '../../LockedPool/hooks/useUserDataInVaultPrensenter'
+import useUserDataInVaultPresenter from '../../LockedPool/hooks/useUserDataInVaultPresenter'
 
 interface AutoHarvestActionProps extends DeserializedPool {
   userDataLoaded: boolean
@@ -47,7 +47,7 @@ const AutoHarvestAction: React.FunctionComponent<AutoHarvestActionProps> = ({
     currentPerformanceFee.plus(currentOverdueFee).plus(userBoostedShare),
   )
 
-  const { secondDuration, weekDuration } = useUserDataInVaultPrensenter({
+  const { secondDuration, weekDuration } = useUserDataInVaultPresenter({
     lockStartTime,
     lockEndTime,
   })
@@ -58,7 +58,7 @@ const AutoHarvestAction: React.FunctionComponent<AutoHarvestActionProps> = ({
 
   const actionTitle = (
     <Text fontSize="12px" bold color="secondary" as="span" textTransform="uppercase">
-      {t('Recent CAKE profit')}
+      {t('Recent WANO profit')}
     </Text>
   )
 

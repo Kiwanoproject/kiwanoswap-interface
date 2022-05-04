@@ -315,7 +315,7 @@
   },
   {
     "inputs": [],
-    "name": "CAKE",
+    "name": "WANO",
     "outputs": [
       {
         "internalType": "contract IBEP20",

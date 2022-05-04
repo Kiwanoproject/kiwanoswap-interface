@@ -11,7 +11,7 @@ import {
   Box,
   useMatchBreakpoints,
   SkeletonV2,
-} from '@pancakeswap/uikit'
+} from '@kiwanoswap/uikit'
 import { useWeb3React } from '@web3-react/core'
 import BigNumber from 'bignumber.js'
 import Balance from 'components/Balance'
@@ -28,7 +28,7 @@ import { BIG_ZERO } from 'utils/bigNumber'
 import { getBalanceNumber, getFullDisplayBalance } from 'utils/formatBalance'
 import { useProfileRequirement } from 'views/Pools/hooks/useProfileRequirement'
 import isUndefinedOrNull from 'utils/isUndefinedOrNull'
-import useUserDataInVaultPrensenter from 'views/Pools/components/LockedPool/hooks/useUserDataInVaultPrensenter'
+import useUserDataInVaultPresenter from 'views/Pools/components/LockedPool/hooks/useUserDataInVaultPresenter'
 
 import { useApprovePool, useCheckVaultApprovalStatus, useVaultApprove } from '../../../hooks/useApprove'
 import VaultStakeModal from '../../CakeVaultCard/VaultStakeModal'
@@ -107,7 +107,7 @@ const Staked: React.FunctionComponent<StackedActionProps> = ({ pool, userDataLoa
     },
   } = useVaultPoolByKey(pool.vaultKey)
 
-  const { lockEndDate, remainingTime } = useUserDataInVaultPrensenter({
+  const { lockEndDate, remainingTime } = useUserDataInVaultPresenter({
     lockStartTime: lockStartTime ?? '0',
     lockEndTime: lockEndTime ?? '0',
   })
@@ -243,7 +243,7 @@ const Staked: React.FunctionComponent<StackedActionProps> = ({ pool, userDataLoa
     const vaultPosition = getVaultPosition({ userShares, locked, lockEndTime })
     return (
       <>
-        <ActionContainer isAutoVault={!vaultKey} flex={vaultPosition > 1 ? 1.5 : 1}>
+        <ActionContainer flex={vaultPosition > 1 ? 1.5 : 1}>
           <ActionContent mt={0}>
             <Flex flex="1" flexDirection="column" alignSelf="flex-start">
               <ActionTitles>
@@ -309,6 +309,7 @@ const Staked: React.FunctionComponent<StackedActionProps> = ({ pool, userDataLoa
                   {vaultPosition >= VaultPosition.LockedEnd ? t('Unlocked') : remainingTime}
                 </Text>
                 <Text
+                  height="20px"
                   fontSize="12px"
                   display="inline"
                   color={vaultPosition >= VaultPosition.LockedEnd ? '#D67E0A' : 'text'}

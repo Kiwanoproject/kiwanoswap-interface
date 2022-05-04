@@ -1,5 +1,5 @@
 {
-  "name": "pancake-frontend",
+  "name": "kiwanoswap-interface",
   "version": "0.1.0",
   "private": true,
   "workspaces": [
@@ -50,6 +50,7 @@
     "@ethersproject/strings": "^5.5.0",
     "@ethersproject/units": "^5.5.0",
     "@gelatonetwork/limit-orders-lib": "^4.1.0",
+    "@kiwanoswap/sdk": "^2.7.5",
     "@next/bundle-analyzer": "^12.0.7",
     "@pancakeswap/sdk": "^2.4.5",
     "@reduxjs/toolkit": "^1.5.0",
@@ -89,7 +90,7 @@
     "remark-gfm": "^1.0.0",
     "split-grid": "^1.0.11",
     "styled-components": "^5.3.3",
-    "swiper": "^8.1.0",
+    "swiper": "^8.1.4",
     "swr": "^1.3.0",
     "typescript": "^4.6.3"
   },

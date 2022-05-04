@@ -1,13 +1,14 @@
-import { Token } from '@pancakeswap/sdk'
+import { Token } from '@kiwanoswap/sdk'
 import Balance from 'components/Balance'
-import { Flex, Skeleton, Text, TooltipText, useTooltip } from '@pancakeswap/uikit'
+import { Flex, Skeleton, Text, TooltipText, useTooltip } from '@kiwanoswap/uikit'
 import BigNumber from 'bignumber.js'
 import { useTranslation } from 'contexts/Localization'
 import { FC, ReactNode } from 'react'
 import { getBalanceNumber } from 'utils/formatBalance'
-import { DeserializedLockedVaultUser } from 'state/types'
+import { DeserializedLockedVaultUser, DeserializedPool } from 'state/types'
 import { isLocked, isStaked } from 'utils/cakePool'
 import useAvgLockDuration from './LockedPool/hooks/useAvgLockDuration'
+import Apr from './Apr'
 
 const StatWrapper: FC<{ label: ReactNode }> = ({ children, label }) => {
   return (
@@ -96,9 +97,33 @@ export const DurationAvg = () => {
 export const TotalStaked: FC<{ totalStaked: BigNumber; stakingToken: Token }> = ({ totalStaked, stakingToken }) => {
   const { t } = useTranslation()
 
+  const { targetRef, tooltip, tooltipVisible } = useTooltip(
+    t('Total amount of %symbol% staked in this pool', { symbol: stakingToken.symbol }),
+    {
+      placement: 'bottom',
+    },
+  )
+
   return (
-    <StatWrapper label={<Text small>{t('Total staked')}:</Text>}>
+    <StatWrapper
+      label={
+        <TooltipText ref={targetRef} small>
+          {t('Total staked')}:
+        </TooltipText>
+      }
+    >
+      {tooltipVisible && tooltip}
       <TotalToken total={totalStaked} token={stakingToken} />
     </StatWrapper>
+  )
+}
+
+export const AprInfo: FC<{ pool: DeserializedPool; stakedBalance: BigNumber }> = ({ pool, stakedBalance }) => {
+  const { t } = useTranslation()
+  return (
+    <Flex justifyContent="space-between" alignItems="center">
+      <Text small>{t('APR')}:</Text>
+      <Apr pool={pool} showIcon stakedBalance={stakedBalance} performanceFee={0} fontSize="14px" />
+    </Flex>
   )
 }

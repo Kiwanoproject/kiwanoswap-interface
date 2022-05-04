@@ -100,9 +100,11 @@ export const fetchCakePoolUserDataAsync = (account: string) => async (dispatch) 
 
 export const fetchPoolsPublicDataAsync = (currentBlockNumber: number) => async (dispatch, getState) => {
   try {
-    const blockLimits = await fetchPoolsBlockLimits()
-    const totalStakings = await fetchPoolsTotalStaking()
-    const profileRequirements = await fetchPoolsProfileRequirement()
+    const [blockLimits, totalStakings, profileRequirements] = await Promise.all([
+      fetchPoolsBlockLimits(),
+      fetchPoolsTotalStaking(),
+      fetchPoolsProfileRequirement(),
+    ])
     let currentBlock = currentBlockNumber
     if (!currentBlock) {
       currentBlock = await simpleRpcProvider.getBlockNumber()
@@ -206,10 +208,12 @@ export const fetchPoolsUserDataAsync =
   (account: string): AppThunk =>
   async (dispatch) => {
     try {
-      const allowances = await fetchPoolsAllowance(account)
-      const stakingTokenBalances = await fetchUserBalances(account)
-      const stakedBalances = await fetchUserStakeBalances(account)
-      const pendingRewards = await fetchUserPendingRewards(account)
+      const [allowances, stakingTokenBalances, stakedBalances, pendingRewards] = await Promise.all([
+        fetchPoolsAllowance(account),
+        fetchUserBalances(account),
+        fetchUserStakeBalances(account),
+        fetchUserPendingRewards(account),
+      ])
 
       const userData = poolsConfig.map((pool) => ({
         sousId: pool.sousId,

@@ -1814,7 +1814,7 @@ exports[`renders correctly 1`] = `
           >
             <a
               class="c27"
-              href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+              href="/swap?outputCurrency=0x4eEC1Dc3a43d8F53A36d4A416fC30b1B6C287d13"
               target="_blank"
             >
               <svg
@@ -2212,7 +2212,7 @@ exports[`renders correctly 1`] = `
                     rel="noreferrer noopener"
                     target="_blank"
                   >
-                    CAKE
+                    WANO
                   </a>
                 </li>
                 <li
@@ -2989,7 +2989,7 @@ exports[`renders correctly 1`] = `
                 >
                   <a
                     class="c27"
-                    href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+                    href="/swap?outputCurrency=0x4eEC1Dc3a43d8F53A36d4A416fC30b1B6C287d13"
                     target="_blank"
                   >
                     <svg
@@ -3052,11 +3052,11 @@ exports[`renders correctly 1`] = `
                 </div>
                 <a
                   class="c92"
-                  href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+                  href="/swap?outputCurrency=0x4eEC1Dc3a43d8F53A36d4A416fC30b1B6C287d13"
                   scale="sm"
                   target="_blank"
                 >
-                  Buy CAKE
+                  Buy WANO
                   <svg
                     class="c93"
                     color="#FFFFFF"
