@@ -1294,12 +1294,12 @@ exports[`Trade #useAllCommonPairs should get all pair combinations wbnb, cake 1`
           2,
           Pair {
             "liquidityToken": Token {
-              "address": "0x0eD7e52944161450477ee417DE9Cd3a859b14fD0",
+              "address": "0x4eEC1Dc3a43d8F53A36d4A416fC30b1B6C287d13",
               "chainId": 56,
               "decimals": 18,
-              "name": "Pancake LPs",
+              "name": "KIWANO LPs",
               "projectLink": undefined,
-              "symbol": "Cake-LP",
+              "symbol": "WANO-LP",
             },
             "tokenAmounts": Array [
               TokenAmount {
@@ -1359,12 +1359,12 @@ exports[`Trade #useAllCommonPairs should get all pair combinations wbnb, cake 1`
           2,
           Pair {
             "liquidityToken": Token {
-              "address": "0x0eD7e52944161450477ee417DE9Cd3a859b14fD0",
+              "address": "0x4eEC1Dc3a43d8F53A36d4A416fC30b1B6C287d13",
               "chainId": 56,
               "decimals": 18,
-              "name": "Pancake LPs",
+              "name": "KIWANO LPs",
               "projectLink": undefined,
-              "symbol": "Cake-LP",
+              "symbol": "WANO-LP",
             },
             "tokenAmounts": Array [
               TokenAmount {
@@ -1424,12 +1424,12 @@ exports[`Trade #useAllCommonPairs should get all pair combinations wbnb, cake 1`
           2,
           Pair {
             "liquidityToken": Token {
-              "address": "0x0eD7e52944161450477ee417DE9Cd3a859b14fD0",
+              "address": "0x4eEC1Dc3a43d8F53A36d4A416fC30b1B6C287d13",
               "chainId": 56,
               "decimals": 18,
-              "name": "Pancake LPs",
+              "name": "KIWANO LPs",
               "projectLink": undefined,
-              "symbol": "Cake-LP",
+              "symbol": "WANO-LP",
             },
             "tokenAmounts": Array [
               TokenAmount {
@@ -2771,12 +2771,12 @@ exports[`Trade #useAllCommonPairs should get all pair combinations, wbnb, wbnb 1
           2,
           Pair {
             "liquidityToken": Token {
-              "address": "0x0eD7e52944161450477ee417DE9Cd3a859b14fD0",
+              "address": "0x4eEC1Dc3a43d8F53A36d4A416fC30b1B6C287d13",
               "chainId": 56,
               "decimals": 18,
-              "name": "Pancake LPs",
+              "name": "KIWANO LPs",
               "projectLink": undefined,
-              "symbol": "Cake-LP",
+              "symbol": "WANO-LP",
             },
             "tokenAmounts": Array [
               TokenAmount {
@@ -2836,12 +2836,12 @@ exports[`Trade #useAllCommonPairs should get all pair combinations, wbnb, wbnb 1
           2,
           Pair {
             "liquidityToken": Token {
-              "address": "0x0eD7e52944161450477ee417DE9Cd3a859b14fD0",
+              "address": "0x4eEC1Dc3a43d8F53A36d4A416fC30b1B6C287d13",
               "chainId": 56,
               "decimals": 18,
-              "name": "Pancake LPs",
+              "name": "KIWANO LPs",
               "projectLink": undefined,
-              "symbol": "Cake-LP",
+              "symbol": "WANO-LP",
             },
             "tokenAmounts": Array [
               TokenAmount {
@@ -2901,12 +2901,12 @@ exports[`Trade #useAllCommonPairs should get all pair combinations, wbnb, wbnb 1
           2,
           Pair {
             "liquidityToken": Token {
-              "address": "0x0eD7e52944161450477ee417DE9Cd3a859b14fD0",
+              "address": "0x4eEC1Dc3a43d8F53A36d4A416fC30b1B6C287d13",
               "chainId": 56,
               "decimals": 18,
-              "name": "Pancake LPs",
+              "name": "KIWANO LPs",
               "projectLink": undefined,
-              "symbol": "Cake-LP",
+              "symbol": "WANO-LP",
             },
             "tokenAmounts": Array [
               TokenAmount {
