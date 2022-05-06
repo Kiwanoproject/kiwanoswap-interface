@@ -1,4 +1,4 @@
-import { Svg, SvgProps } from '@kiwanoswap/uikit'
+import { Svg, SvgProps } from '@kiwanoproject/uikit'
 
 const WhiteBunny: React.FC<SvgProps> = (props) => {
   return (

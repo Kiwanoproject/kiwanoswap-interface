@@ -1,4 +1,4 @@
-import { Modal, Flex, Text } from '@kiwanoswap/uikit'
+import { Modal, Flex, Text } from '@kiwanoproject/uikit'
 import { BigNumber } from '@ethersproject/bignumber'
 import { formatUnits } from '@ethersproject/units'
 import { useTranslation } from 'contexts/Localization'

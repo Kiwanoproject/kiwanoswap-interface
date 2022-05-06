@@ -1,4 +1,4 @@
-import { NoProfileAvatarIcon } from '@kiwanoswap/uikit'
+import { NoProfileAvatarIcon } from '@kiwanoproject/uikit'
 import { Profile } from 'state/types'
 import styled from 'styled-components'
 

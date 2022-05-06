@@ -1,4 +1,4 @@
-import { Box, Message, MessageText } from '@kiwanoswap/uikit'
+import { Box, Message, MessageText } from '@kiwanoproject/uikit'
 import { NextLinkFromReactRouter } from 'components/NextLink'
 import { useTranslation } from 'contexts/Localization'
 import { DeserializedPool } from 'state/types'

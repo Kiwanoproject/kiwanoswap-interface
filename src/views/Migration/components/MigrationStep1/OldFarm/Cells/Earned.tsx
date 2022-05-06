@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Flex, Text, useMatchBreakpoints } from '@kiwanoswap/uikit'
+import { Flex, Text, useMatchBreakpoints } from '@kiwanoproject/uikit'
 import { useTranslation } from 'contexts/Localization'
 import BaseCell, { CellContent } from 'views/Pools/components/PoolsTable/Cells/BaseCell'
 

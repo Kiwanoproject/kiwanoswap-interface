@@ -1,5 +1,5 @@
 import { Currency, Token } from '@kiwanoswap/sdk'
-import { Button, Text, Modal, useModal, InjectedModalProps, Link } from '@kiwanoswap/uikit'
+import { Button, Text, Modal, useModal, InjectedModalProps, Link } from '@kiwanoproject/uikit'
 import { useTranslation } from 'contexts/Localization'
 import styled from 'styled-components'
 import { AutoRow } from 'components/Layout/Row'

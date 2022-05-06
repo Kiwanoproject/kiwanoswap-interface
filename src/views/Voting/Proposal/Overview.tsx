@@ -1,4 +1,4 @@
-import { ArrowBackIcon, Box, Button, Flex, Heading } from '@kiwanoswap/uikit'
+import { ArrowBackIcon, Box, Button, Flex, Heading } from '@kiwanoproject/uikit'
 import { PageMeta } from 'components/Layout/Page'
 import { getAllVotes, getProposal } from 'state/voting/helpers'
 import { useWeb3React } from '@web3-react/core'

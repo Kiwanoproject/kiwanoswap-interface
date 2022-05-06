@@ -10,7 +10,7 @@ import {
   Box,
   Flex,
   ExpandableLabel,
-} from '@kiwanoswap/uikit'
+} from '@kiwanoproject/uikit'
 import { SubgraphHealthIndicator } from 'components/SubgraphHealthIndicator'
 import { useTranslation } from 'contexts/Localization'
 import { TeamRanksProps } from '../../../types'

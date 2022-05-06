@@ -1,6 +1,6 @@
 import { useRef, RefObject, useCallback, useState, useMemo } from 'react'
 import { Token } from '@kiwanoswap/sdk'
-import { Text, Button, CloseIcon, IconButton, LinkExternal, Input, Link } from '@kiwanoswap/uikit'
+import { Text, Button, CloseIcon, IconButton, LinkExternal, Input, Link } from '@kiwanoproject/uikit'
 import styled from 'styled-components'
 import Row, { RowBetween, RowFixed } from 'components/Layout/Row'
 import { useToken } from 'hooks/Tokens'

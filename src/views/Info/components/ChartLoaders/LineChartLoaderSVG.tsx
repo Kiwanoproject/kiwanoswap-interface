@@ -1,4 +1,4 @@
-import { Svg, SvgProps } from '@kiwanoswap/uikit'
+import { Svg, SvgProps } from '@kiwanoproject/uikit'
 
 const LineChartLoaderSVG: React.FC<SvgProps> = (props) => {
   return (

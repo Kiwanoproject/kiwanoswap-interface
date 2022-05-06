@@ -3,7 +3,7 @@ import {
   TokenPairImageProps as UIKitTokenPairImageProps,
   TokenImage as UIKitTokenImage,
   ImageProps,
-} from '@kiwanoswap/uikit'
+} from '@kiwanoproject/uikit'
 import tokens from 'config/constants/tokens'
 import { Token } from '@kiwanoswap/sdk'
 

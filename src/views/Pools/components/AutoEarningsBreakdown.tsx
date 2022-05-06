@@ -1,4 +1,4 @@
-import { Text } from '@kiwanoswap/uikit'
+import { Text } from '@kiwanoproject/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { differenceInHours } from 'date-fns'
 import { useVaultPoolByKey } from 'state/pools/hooks'

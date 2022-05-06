@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Box, Flex } from '@kiwanoswap/uikit'
+import { Box, Flex } from '@kiwanoproject/uikit'
 import Footer from 'components/Menu/Footer'
 import { PageMeta } from 'components/Layout/Page'
 import { EXCHANGE_DOCS_URLS } from 'config/constants'

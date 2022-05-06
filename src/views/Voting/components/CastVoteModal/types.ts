@@ -1,4 +1,4 @@
-import { InjectedModalProps } from '@kiwanoswap/uikit'
+import { InjectedModalProps } from '@kiwanoproject/uikit'
 
 export enum ConfirmVoteView {
   MAIN = 'main',

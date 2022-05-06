@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import useDelayedUnmount from 'hooks/useDelayedUnmount'
-import { useMatchBreakpoints } from '@kiwanoswap/uikit'
+import { useMatchBreakpoints } from '@kiwanoproject/uikit'
 import { DeserializedPool, VaultKey } from 'state/types'
 import { useVaultPoolByKey, useVaultPools } from 'state/pools/hooks'
 import { BIG_ZERO } from 'utils/bigNumber'

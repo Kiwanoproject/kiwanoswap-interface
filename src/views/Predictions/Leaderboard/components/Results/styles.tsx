@@ -1,4 +1,4 @@
-import { Flex, FlexProps, Text } from '@kiwanoswap/uikit'
+import { Flex, FlexProps, Text } from '@kiwanoproject/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { useBNBBusdPrice } from 'hooks/useBUSDPrice'
 import { multiplyPriceByAmount } from 'utils/prices'

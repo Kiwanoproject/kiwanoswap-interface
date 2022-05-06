@@ -1,4 +1,4 @@
-import { Flex, UserMenuItem, WarningIcon } from '@kiwanoswap/uikit'
+import { Flex, UserMenuItem, WarningIcon } from '@kiwanoproject/uikit'
 import { useTranslation } from 'contexts/Localization'
 
 interface WalletUserMenuItemProps {

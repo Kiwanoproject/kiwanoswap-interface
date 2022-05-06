@@ -1,4 +1,4 @@
-import { Flex, Box, Text, Button } from '@kiwanoswap/uikit'
+import { Flex, Box, Text, Button } from '@kiwanoproject/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { Divider } from '../shared/styles'
 

@@ -1,4 +1,4 @@
-import { InjectedModalProps, Modal, Flex, Text, Button, Link, BinanceIcon, Box } from '@kiwanoswap/uikit'
+import { InjectedModalProps, Modal, Flex, Text, Button, Link, BinanceIcon, Box } from '@kiwanoproject/uikit'
 import { Price } from '@kiwanoswap/sdk'
 import useTheme from 'hooks/useTheme'
 import { Activity, NftToken } from 'state/nftMarket/types'

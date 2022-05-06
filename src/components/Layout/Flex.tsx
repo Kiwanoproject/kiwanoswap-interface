@@ -1,4 +1,4 @@
-import { Flex, FlexProps } from '@kiwanoswap/uikit'
+import { Flex, FlexProps } from '@kiwanoproject/uikit'
 import styled from 'styled-components'
 
 const FlexLayout = styled.div`

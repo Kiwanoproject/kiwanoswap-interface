@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Flex } from '@kiwanoswap/uikit'
+import { Flex } from '@kiwanoproject/uikit'
 
 export const ActionContainer = styled(Flex)`
   flex-direction: column;

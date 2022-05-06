@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Button } from '@kiwanoswap/uikit'
+import { Button } from '@kiwanoproject/uikit'
 
 interface NumTicketsToBuyButtonProps {
   onClick: () => void

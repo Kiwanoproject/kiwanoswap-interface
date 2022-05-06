@@ -1,5 +1,5 @@
 import { createContext, useCallback, useEffect, useState } from 'react'
-import { Language } from '@kiwanoswap/uikit'
+import { Language } from '@kiwanoproject/uikit'
 import memoize from 'lodash/memoize'
 import { EN, languages } from 'config/localization/languages'
 import translations from 'config/localization/translations.json'

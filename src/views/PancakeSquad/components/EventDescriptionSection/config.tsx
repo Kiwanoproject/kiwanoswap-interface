@@ -1,4 +1,4 @@
-import { Text } from '@kiwanoswap/uikit'
+import { Text } from '@kiwanoproject/uikit'
 import { ContextApi } from 'contexts/Localization/types'
 import Link from 'next/link'
 

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Heading, Card, CardBody } from '@kiwanoswap/uikit'
+import { Heading, Card, CardBody } from '@kiwanoproject/uikit'
 
 interface HowToCardProps {
   number?: number

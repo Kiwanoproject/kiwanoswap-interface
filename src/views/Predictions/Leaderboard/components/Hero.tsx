@@ -1,4 +1,4 @@
-import { Heading } from '@kiwanoswap/uikit'
+import { Heading } from '@kiwanoproject/uikit'
 import { useTranslation } from 'contexts/Localization'
 import PageHeader from 'components/PageHeader'
 import Crumbs from './Crumbs'

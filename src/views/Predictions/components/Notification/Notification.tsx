@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Card, CardBody, Heading } from '@kiwanoswap/uikit'
+import { Card, CardBody, Heading } from '@kiwanoproject/uikit'
 
 interface NotificationProps {
   title: string

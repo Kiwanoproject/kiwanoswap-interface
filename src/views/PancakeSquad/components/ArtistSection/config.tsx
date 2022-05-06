@@ -1,4 +1,4 @@
-import { InstagramIcon, TwitterIcon } from '@kiwanoswap/uikit'
+import { InstagramIcon, TwitterIcon } from '@kiwanoproject/uikit'
 import { ContextApi } from 'contexts/Localization/types'
 
 type ArtistConfigType = {

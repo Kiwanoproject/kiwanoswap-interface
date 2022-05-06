@@ -14,7 +14,7 @@ import {
   Slider,
   Box,
   AutoRenewIcon,
-} from '@kiwanoswap/uikit'
+} from '@kiwanoproject/uikit'
 import { BigNumber, FixedNumber } from '@ethersproject/bignumber'
 import { Zero } from '@ethersproject/constants'
 import { parseUnits } from '@ethersproject/units'

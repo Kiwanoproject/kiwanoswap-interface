@@ -11,7 +11,7 @@ import {
   useTooltip,
   VerifiedIcon,
   VoteIcon,
-} from '@kiwanoswap/uikit'
+} from '@kiwanoproject/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { memo } from 'react'
 

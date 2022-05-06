@@ -1,4 +1,4 @@
-import { Svg, SvgProps } from '@kiwanoswap/uikit'
+import { Svg, SvgProps } from '@kiwanoproject/uikit'
 
 const Prizes: React.FC<SvgProps> = (props) => {
   return (

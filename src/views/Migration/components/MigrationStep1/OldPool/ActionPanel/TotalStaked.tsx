@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react'
-import { Flex, Text } from '@kiwanoswap/uikit'
+import { Flex, Text } from '@kiwanoproject/uikit'
 import styled from 'styled-components'
 import { useTranslation } from 'contexts/Localization'
 import BigNumber from 'bignumber.js'

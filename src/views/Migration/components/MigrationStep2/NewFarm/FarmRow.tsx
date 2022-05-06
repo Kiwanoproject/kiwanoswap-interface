@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import useDelayedUnmount from 'hooks/useDelayedUnmount'
-import { useMatchBreakpoints } from '@kiwanoswap/uikit'
+import { useMatchBreakpoints } from '@kiwanoproject/uikit'
 import { AprProps } from 'views/Farms/components/FarmTable/Apr'
 import Farm, { FarmProps } from 'views/Migration/components/MigrationStep1/OldFarm/Cells/Farm'
 import Staked, { StakedProps } from 'views/Migration/components/MigrationStep1/OldFarm/Cells/Staked'

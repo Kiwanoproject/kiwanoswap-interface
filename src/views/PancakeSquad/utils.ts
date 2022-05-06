@@ -1,4 +1,4 @@
-import { EventStatus } from '@kiwanoswap/uikit'
+import { EventStatus } from '@kiwanoproject/uikit'
 import { ContextApi } from 'contexts/Localization/types'
 import formatTimePeriod from 'utils/formatTimePeriod'
 import getTimePeriods from 'utils/getTimePeriods'

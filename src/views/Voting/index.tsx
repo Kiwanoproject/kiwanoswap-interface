@@ -1,4 +1,4 @@
-import { Flex } from '@kiwanoswap/uikit'
+import { Flex } from '@kiwanoproject/uikit'
 import { PageMeta } from 'components/Layout/Page'
 import styled from 'styled-components'
 import Footer from './components/Footer'

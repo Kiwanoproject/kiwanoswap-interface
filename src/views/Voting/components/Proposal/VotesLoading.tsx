@@ -1,4 +1,4 @@
-import { Box, Flex, Skeleton } from '@kiwanoswap/uikit'
+import { Box, Flex, Skeleton } from '@kiwanoproject/uikit'
 import times from 'lodash/times'
 import styled from 'styled-components'
 

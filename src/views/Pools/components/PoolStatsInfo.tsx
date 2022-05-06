@@ -1,4 +1,4 @@
-import { Button, Flex, Link, LinkExternal, MetamaskIcon, Skeleton, Text, TimerIcon } from '@kiwanoswap/uikit'
+import { Button, Flex, Link, LinkExternal, MetamaskIcon, Skeleton, Text, TimerIcon } from '@kiwanoproject/uikit'
 import Balance from 'components/Balance'
 import { BASE_BSC_SCAN_URL } from 'config'
 import { useTranslation } from 'contexts/Localization'

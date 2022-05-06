@@ -1,5 +1,5 @@
 import { ReactNode } from 'react'
-import { Box, Grid, GridProps, Heading } from '@kiwanoswap/uikit'
+import { Box, Grid, GridProps, Heading } from '@kiwanoproject/uikit'
 
 interface MarketPageTitleProps extends GridProps {
   title: string

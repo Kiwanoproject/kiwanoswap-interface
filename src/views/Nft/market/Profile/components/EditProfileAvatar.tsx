@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { useModal } from '@kiwanoswap/uikit'
+import { useModal } from '@kiwanoproject/uikit'
 import AvatarImage from 'views/Nft/market/components/BannerHeader/AvatarImage'
 import EditProfileModal from './EditProfileModal'
 

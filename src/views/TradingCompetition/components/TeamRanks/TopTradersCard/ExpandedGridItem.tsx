@@ -1,4 +1,4 @@
-import { Text, Flex, Box } from '@kiwanoswap/uikit'
+import { Text, Flex, Box } from '@kiwanoproject/uikit'
 import styled from 'styled-components'
 import truncateHash from 'utils/truncateHash'
 import { LeaderboardDataItem } from '../../../types'

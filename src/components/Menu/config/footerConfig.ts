@@ -1,4 +1,4 @@
-import { FooterLinkType } from '@kiwanoswap/uikit'
+import { FooterLinkType } from '@kiwanoproject/uikit'
 import { ContextApi } from 'contexts/Localization/types'
 
 export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [

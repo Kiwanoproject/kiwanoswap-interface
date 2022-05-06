@@ -1,4 +1,4 @@
-import { Flex, Text, Button, Spinner } from '@kiwanoswap/uikit'
+import { Flex, Text, Button, Spinner } from '@kiwanoproject/uikit'
 import { useTranslation } from 'contexts/Localization'
 
 interface ConfirmStageProps {

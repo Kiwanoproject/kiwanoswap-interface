@@ -1,4 +1,4 @@
-import { BunnyPlaceholderIcon, Flex, Heading } from '@kiwanoswap/uikit'
+import { BunnyPlaceholderIcon, Flex, Heading } from '@kiwanoproject/uikit'
 import { useTranslation } from 'contexts/Localization'
 
 interface ComingSoonProps {

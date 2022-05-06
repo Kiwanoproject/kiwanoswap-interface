@@ -1,4 +1,4 @@
-import { Box, Flex, Text, useMatchBreakpoints } from '@kiwanoswap/uikit'
+import { Box, Flex, Text, useMatchBreakpoints } from '@kiwanoproject/uikit'
 import BigNumber from 'bignumber.js'
 import Balance from 'components/Balance'
 import { useTranslation } from 'contexts/Localization'

@@ -1,5 +1,5 @@
 {
-  "name": "@kiwanoswap/uikit",
+  "name": "@kiwanoproject/uikit",
   "version": "0.64.3npn",
   "description": "Set of UI components for kiwanoswap projects",
   "main": "dist/index.cjs.js",

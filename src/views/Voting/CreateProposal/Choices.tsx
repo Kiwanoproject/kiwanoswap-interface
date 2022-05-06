@@ -1,4 +1,4 @@
-import { Button, Card, CardBody, CardHeader, Heading } from '@kiwanoswap/uikit'
+import { Button, Card, CardBody, CardHeader, Heading } from '@kiwanoproject/uikit'
 import uniqueId from 'lodash/uniqueId'
 import { useTranslation } from 'contexts/Localization'
 import Choice from './Choice'

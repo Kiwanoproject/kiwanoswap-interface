@@ -1,4 +1,4 @@
-import { Heading, Card, CardBody } from '@kiwanoswap/uikit'
+import { Heading, Card, CardBody } from '@kiwanoproject/uikit'
 
 const RulesCard: React.FC<{ title?: string }> = ({ title, children }) => {
   return (

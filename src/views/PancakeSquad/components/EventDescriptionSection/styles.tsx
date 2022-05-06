@@ -1,4 +1,4 @@
-import { Flex, lightColors } from '@kiwanoswap/uikit'
+import { Flex, lightColors } from '@kiwanoproject/uikit'
 import styled, { keyframes } from 'styled-components'
 
 const flyingAnim = () => keyframes`

@@ -1,4 +1,4 @@
-import { Heading, Text } from '@kiwanoswap/uikit'
+import { Heading, Text } from '@kiwanoproject/uikit'
 import { useTranslation } from 'contexts/Localization'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 

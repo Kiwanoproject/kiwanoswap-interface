@@ -1,4 +1,4 @@
-import { LinkExternal } from '@kiwanoswap/uikit'
+import { LinkExternal } from '@kiwanoproject/uikit'
 import { ContextApi } from 'contexts/Localization/types'
 
 const config = (t: ContextApi['t']) => {

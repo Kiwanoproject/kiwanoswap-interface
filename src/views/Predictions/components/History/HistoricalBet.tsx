@@ -10,7 +10,7 @@ import {
   Text,
   useTooltip,
   WaitIcon,
-} from '@kiwanoswap/uikit'
+} from '@kiwanoproject/uikit'
 import { useWeb3React } from '@web3-react/core'
 import styled from 'styled-components'
 import { useAppDispatch } from 'state'

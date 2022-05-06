@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Svg, SvgProps } from '@kiwanoswap/uikit'
+import { Svg, SvgProps } from '@kiwanoproject/uikit'
 
 export const OuterWedgeWrapper = styled.div`
   z-index: -1;

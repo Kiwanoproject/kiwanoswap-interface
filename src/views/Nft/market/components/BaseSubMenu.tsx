@@ -1,4 +1,4 @@
-import { SubMenuItems } from '@kiwanoswap/uikit'
+import { SubMenuItems } from '@kiwanoproject/uikit'
 import styled from 'styled-components'
 
 const BaseSubMenu = styled(SubMenuItems)`

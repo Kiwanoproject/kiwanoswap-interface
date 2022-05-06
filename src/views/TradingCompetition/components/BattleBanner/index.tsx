@@ -1,4 +1,4 @@
-import { Flex, Text, Heading } from '@kiwanoswap/uikit'
+import { Flex, Text, Heading } from '@kiwanoproject/uikit'
 import Image from 'next/image'
 import styled from 'styled-components'
 import { useTranslation } from 'contexts/Localization'

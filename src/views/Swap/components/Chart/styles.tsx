@@ -1,4 +1,4 @@
-import { Box } from '@kiwanoswap/uikit'
+import { Box } from '@kiwanoproject/uikit'
 import styled from 'styled-components'
 
 export const StyledPriceChart = styled(Box)<{

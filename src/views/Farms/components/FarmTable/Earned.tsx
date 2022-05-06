@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Skeleton } from '@kiwanoswap/uikit'
+import { Skeleton } from '@kiwanoproject/uikit'
 
 export interface EarnedProps {
   earnings: number

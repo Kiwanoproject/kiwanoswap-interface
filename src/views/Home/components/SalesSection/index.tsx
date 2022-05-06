@@ -1,4 +1,4 @@
-import { Flex, Text, Button, Link } from '@kiwanoswap/uikit'
+import { Flex, Text, Button, Link } from '@kiwanoproject/uikit'
 import { NextLinkFromReactRouter as RouterLink } from 'components/NextLink'
 import CompositeImage, { CompositeImageProps } from '../CompositeImage'
 import ColoredWordHeading from '../ColoredWordHeading'

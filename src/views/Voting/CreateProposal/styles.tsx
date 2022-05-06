@@ -1,4 +1,4 @@
-import { Box, Text } from '@kiwanoswap/uikit'
+import { Box, Text } from '@kiwanoproject/uikit'
 import styled from 'styled-components'
 
 const BaseLabel = styled.label`

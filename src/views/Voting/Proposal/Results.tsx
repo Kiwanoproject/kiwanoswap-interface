@@ -10,7 +10,7 @@ import {
   Skeleton,
   Tag,
   CheckmarkCircleIcon,
-} from '@kiwanoswap/uikit'
+} from '@kiwanoproject/uikit'
 import { useWeb3React } from '@web3-react/core'
 import { Vote } from 'state/types'
 import { formatNumber } from 'utils/formatBalance'

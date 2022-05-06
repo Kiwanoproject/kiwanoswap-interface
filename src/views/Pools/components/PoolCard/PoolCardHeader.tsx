@@ -1,4 +1,4 @@
-import { CardHeader, Flex, Heading, Text } from '@kiwanoswap/uikit'
+import { CardHeader, Flex, Heading, Text } from '@kiwanoproject/uikit'
 import { ReactNode } from 'react'
 import styled from 'styled-components'
 

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Flex, Heading } from '@kiwanoswap/uikit'
+import { Flex, Heading } from '@kiwanoproject/uikit'
 import { useTranslation } from 'contexts/Localization'
 
 export interface TimerProps {

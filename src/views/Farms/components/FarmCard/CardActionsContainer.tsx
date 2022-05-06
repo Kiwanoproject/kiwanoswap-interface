@@ -1,4 +1,4 @@
-import { Button, Flex, Text } from '@kiwanoswap/uikit'
+import { Button, Flex, Text } from '@kiwanoproject/uikit'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { useTranslation } from 'contexts/Localization'

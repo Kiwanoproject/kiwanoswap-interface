@@ -1,4 +1,4 @@
-import { Flex, Text, TooltipText, useTooltip } from '@kiwanoswap/uikit'
+import { Flex, Text, TooltipText, useTooltip } from '@kiwanoproject/uikit'
 
 import { useVaultApy } from 'hooks/useVaultApy'
 import { BalanceWithLoading } from 'components/Balance'

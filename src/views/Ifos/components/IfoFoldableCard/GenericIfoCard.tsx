@@ -1,5 +1,5 @@
 import { ReactElement } from 'react'
-import { Box, Flex, HelpIcon, CardHeader, CardBody, Text, useTooltip } from '@kiwanoswap/uikit'
+import { Box, Flex, HelpIcon, CardHeader, CardBody, Text, useTooltip } from '@kiwanoproject/uikit'
 
 import { StyledCard } from '../IfoCardStyles'
 import { CardConfigReturn } from './types'

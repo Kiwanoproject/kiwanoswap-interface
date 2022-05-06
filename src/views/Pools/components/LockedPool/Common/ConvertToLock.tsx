@@ -1,5 +1,5 @@
 import { Token } from '@kiwanoswap/sdk'
-import { Flex, Message, MessageText, useMatchBreakpoints } from '@kiwanoswap/uikit'
+import { Flex, Message, MessageText, useMatchBreakpoints } from '@kiwanoproject/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { memo } from 'react'
 import { useVaultApy } from 'hooks/useVaultApy'

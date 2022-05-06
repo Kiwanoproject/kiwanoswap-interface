@@ -1,4 +1,4 @@
-import { Text } from '@kiwanoswap/uikit'
+import { Text } from '@kiwanoproject/uikit'
 import { useTranslation } from 'contexts/Localization'
 
 const BondlyWarning = () => {

@@ -1,5 +1,5 @@
 {
-  "name": "@kiwanoswap/eslint-config-kiwanoswap",
+  "name": "@kiwanoproject/eslint-config-kiwanoswap",
   "version": "1.2.0",
   "description": "Eslint config for KiwanoSwap",
   "main": "lib/index.js",

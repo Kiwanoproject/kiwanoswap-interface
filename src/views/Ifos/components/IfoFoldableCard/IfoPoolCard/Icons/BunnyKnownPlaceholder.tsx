@@ -1,4 +1,4 @@
-import { Svg, SvgProps } from '@kiwanoswap/uikit'
+import { Svg, SvgProps } from '@kiwanoproject/uikit'
 import { useTheme } from 'styled-components'
 
 const BunnyKnownPlaceholder: React.FC<SvgProps> = (props) => {

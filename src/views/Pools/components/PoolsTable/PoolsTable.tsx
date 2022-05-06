@@ -1,6 +1,6 @@
 import { useRef } from 'react'
 import styled from 'styled-components'
-import { Button, ChevronUpIcon } from '@kiwanoswap/uikit'
+import { Button, ChevronUpIcon } from '@kiwanoproject/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { DeserializedPool } from 'state/types'
 import PoolRow from './PoolRow'

@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { Button, useModal, ButtonProps } from '@kiwanoswap/uikit'
+import { Button, useModal, ButtonProps } from '@kiwanoproject/uikit'
 
 import ExtendDurationModal from '../Modals/ExtendDurationModal'
 import { ExtendDurationButtonPropsType } from '../types'

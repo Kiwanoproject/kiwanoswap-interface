@@ -1,4 +1,4 @@
-import { Button, Card, CardBody, Flex, Heading, Text } from '@kiwanoswap/uikit'
+import { Button, Card, CardBody, Flex, Heading, Text } from '@kiwanoproject/uikit'
 import { useTranslation } from 'contexts/Localization'
 import Link from 'next/link'
 

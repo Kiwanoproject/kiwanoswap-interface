@@ -1,5 +1,5 @@
 import { BigNumber } from '@ethersproject/bignumber'
-import { CheckmarkCircleIcon, CheckmarkCircleFillIcon, Tag, useTooltip } from '@kiwanoswap/uikit'
+import { CheckmarkCircleIcon, CheckmarkCircleFillIcon, Tag, useTooltip } from '@kiwanoproject/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { formatBnbv2 } from '../../helpers'
 

@@ -1,4 +1,4 @@
-import { Svg } from '@kiwanoswap/uikit'
+import { Svg } from '@kiwanoproject/uikit'
 
 // NOTE: Temporary save icon here. Will move to uikit when the feature is done
 

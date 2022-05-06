@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, CardHeader } from '@kiwanoswap/uikit'
+import { Text, CardHeader } from '@kiwanoproject/uikit'
 
 export interface TableHeaderProps {
   title: string

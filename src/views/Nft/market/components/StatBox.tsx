@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Box, BoxProps, Flex, Skeleton, Text } from '@kiwanoswap/uikit'
+import { Box, BoxProps, Flex, Skeleton, Text } from '@kiwanoproject/uikit'
 
 export interface StatBoxItemProps extends BoxProps {
   title: string

@@ -1,4 +1,4 @@
-import { Box, Flex, FlexProps } from '@kiwanoswap/uikit'
+import { Box, Flex, FlexProps } from '@kiwanoproject/uikit'
 import styled from 'styled-components'
 import { useTranslation } from 'contexts/Localization'
 import { CopyButton } from '../../CopyButton'

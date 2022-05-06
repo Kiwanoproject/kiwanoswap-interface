@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
-import { PancakeTheme } from '@kiwanoswap/uikit'
+import { PancakeTheme } from '@kiwanoproject/uikit'
 
 declare module 'styled-components' {
   /* eslint-disable @typescript-eslint/no-empty-interface */

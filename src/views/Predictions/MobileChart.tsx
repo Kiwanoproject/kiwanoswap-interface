@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Flex } from '@kiwanoswap/uikit'
+import { Flex } from '@kiwanoproject/uikit'
 import { useChartView } from 'state/predictions/hooks'
 import { setChartView } from 'state/predictions'
 import { useAppDispatch } from 'state'

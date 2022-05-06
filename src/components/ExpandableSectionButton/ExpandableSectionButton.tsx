@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { ChevronDownIcon, ChevronUpIcon, Text } from '@kiwanoswap/uikit'
+import { ChevronDownIcon, ChevronUpIcon, Text } from '@kiwanoproject/uikit'
 import { useTranslation } from 'contexts/Localization'
 
 export interface ExpandableSectionButtonProps {

@@ -1,4 +1,4 @@
-import { Heading, Flex } from '@kiwanoswap/uikit'
+import { Heading, Flex } from '@kiwanoproject/uikit'
 import { BigNumber } from 'bignumber.js'
 import Balance from 'components/Balance'
 import { useCallback } from 'react'

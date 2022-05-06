@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex, Link, Text, TimerIcon } from '@kiwanoswap/uikit'
+import { Flex, Link, Text, TimerIcon } from '@kiwanoproject/uikit'
 import { getBscScanLink } from 'utils'
 import BigNumber from 'bignumber.js'
 import { useTranslation } from 'contexts/Localization'

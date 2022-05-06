@@ -8,7 +8,7 @@ const createJestConfig = nextJest({ dir: './' })
 const customJestConfig = {
   testPathIgnorePatterns: ['<rootDir>/cypress/', '<rootDir>/src/config/__tests__/', '<rootDir>/packages'],
   moduleNameMapper: {
-    '^@kiwanoswap/uikit': '<rootDir>/packages/uikit/src',
+    '^@kiwanoproject/uikit': '<rootDir>/packages/uikit/src',
   },
   moduleDirectories: ['node_modules', 'src'],
   testTimeout: 20000,

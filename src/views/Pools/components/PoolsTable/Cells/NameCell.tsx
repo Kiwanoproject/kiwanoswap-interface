@@ -1,4 +1,4 @@
-import { Text, TokenPairImage as UITokenPairImage, useMatchBreakpoints } from '@kiwanoswap/uikit'
+import { Text, TokenPairImage as UITokenPairImage, useMatchBreakpoints } from '@kiwanoproject/uikit'
 import BigNumber from 'bignumber.js'
 import { TokenPairImage } from 'components/TokenImage'
 import { vaultPoolConfig } from 'config/constants/pools'

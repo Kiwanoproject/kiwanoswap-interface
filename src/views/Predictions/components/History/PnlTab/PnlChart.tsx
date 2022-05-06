@@ -1,5 +1,5 @@
 import { useTranslation } from 'contexts/Localization'
-import { Text } from '@kiwanoswap/uikit'
+import { Text } from '@kiwanoproject/uikit'
 import { SVG, WonSlice, LostSlice, Wrapper, Info } from './PnlChartStyles'
 
 /**

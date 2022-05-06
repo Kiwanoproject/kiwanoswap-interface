@@ -1,5 +1,5 @@
 import { useMemo, useCallback, memo } from 'react'
-import { Button, useModal, Skeleton } from '@kiwanoswap/uikit'
+import { Button, useModal, Skeleton } from '@kiwanoproject/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { differenceInSeconds } from 'date-fns'
 import { convertTimeToSeconds } from 'utils/timeHelper'

@@ -1,4 +1,4 @@
-import { Checkbox, Flex, Text } from '@kiwanoswap/uikit'
+import { Checkbox, Flex, Text } from '@kiwanoproject/uikit'
 import { StyledItemRow } from '../ListFilter/styles'
 
 interface CollectionItemRowProps {

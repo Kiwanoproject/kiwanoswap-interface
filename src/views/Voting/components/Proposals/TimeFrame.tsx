@@ -1,4 +1,4 @@
-import { Text } from '@kiwanoswap/uikit'
+import { Text } from '@kiwanoproject/uikit'
 import { toDate, format } from 'date-fns'
 import { useTranslation } from 'contexts/Localization'
 import { ProposalState } from 'state/types'

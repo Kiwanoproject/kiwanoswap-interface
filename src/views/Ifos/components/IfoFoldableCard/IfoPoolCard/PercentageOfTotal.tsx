@@ -1,5 +1,5 @@
 import BigNumber from 'bignumber.js'
-import { Text, TextProps } from '@kiwanoswap/uikit'
+import { Text, TextProps } from '@kiwanoproject/uikit'
 import { useTranslation } from 'contexts/Localization'
 
 interface PercentageOfTotalProps extends TextProps {

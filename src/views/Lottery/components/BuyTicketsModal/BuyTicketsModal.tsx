@@ -14,7 +14,7 @@ import {
   Skeleton,
   Button,
   ArrowForwardIcon,
-} from '@kiwanoswap/uikit'
+} from '@kiwanoproject/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { useWeb3React } from '@web3-react/core'
 import tokens from 'config/constants/tokens'

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Flex, Text } from '@kiwanoswap/uikit'
+import { Flex, Text } from '@kiwanoproject/uikit'
 import { Token } from '@kiwanoswap/sdk'
 import BaseCell, { CellContent } from 'views/Pools/components/PoolsTable/Cells/BaseCell'
 import { TokenPairImage } from 'components/TokenImage'

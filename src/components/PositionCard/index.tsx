@@ -10,7 +10,7 @@ import {
   Flex,
   CardProps,
   AddIcon,
-} from '@kiwanoswap/uikit'
+} from '@kiwanoproject/uikit'
 import styled from 'styled-components'
 import { NextLinkFromReactRouter } from 'components/NextLink'
 import { useTranslation } from 'contexts/Localization'

@@ -1,4 +1,4 @@
-import { ArrowForwardIcon, Box, IconButton, Flex, Text } from '@kiwanoswap/uikit'
+import { ArrowForwardIcon, Box, IconButton, Flex, Text } from '@kiwanoproject/uikit'
 import styled from 'styled-components'
 import { NextLinkFromReactRouter } from 'components/NextLink'
 import { Proposal } from 'state/types'

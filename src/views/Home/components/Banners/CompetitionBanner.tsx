@@ -1,4 +1,4 @@
-import { ArrowForwardIcon, Button, Text, useMatchBreakpoints } from '@kiwanoswap/uikit'
+import { ArrowForwardIcon, Button, Text, useMatchBreakpoints } from '@kiwanoproject/uikit'
 import { NextLinkFromReactRouter } from 'components/NextLink'
 import { useTranslation } from 'contexts/Localization'
 import Image from 'next/image'

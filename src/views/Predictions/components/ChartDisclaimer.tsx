@@ -10,7 +10,7 @@ import {
   Heading,
   Checkbox,
   Box,
-} from '@kiwanoswap/uikit'
+} from '@kiwanoproject/uikit'
 import styled from 'styled-components'
 import { useTranslation } from 'contexts/Localization'
 import { useUserPredictionChartDisclaimerShow } from 'state/user/hooks'

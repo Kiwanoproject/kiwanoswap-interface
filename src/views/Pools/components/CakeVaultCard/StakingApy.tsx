@@ -1,4 +1,4 @@
-import { Flex, Text, Skeleton, useModal, Button, CalculateIcon } from '@kiwanoswap/uikit'
+import { Flex, Text, Skeleton, useModal, Button, CalculateIcon } from '@kiwanoproject/uikit'
 import { LightGreyCard } from 'components/Card'
 import { useTranslation } from 'contexts/Localization'
 import { useVaultApy } from 'hooks/useVaultApy'

@@ -9,7 +9,7 @@ import {
   Text,
   ButtonMenu,
   ButtonMenuItem,
-} from '@kiwanoswap/uikit'
+} from '@kiwanoproject/uikit'
 import { useAppDispatch } from 'state'
 import { HistoryFilter } from 'state/types'
 import { setHistoryFilter, setHistoryPaneState } from 'state/predictions'

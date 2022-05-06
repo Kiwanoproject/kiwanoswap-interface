@@ -1,4 +1,4 @@
-import { TagProps } from '@kiwanoswap/uikit'
+import { TagProps } from '@kiwanoproject/uikit'
 import { ClosedTag, CommunityTag, CoreTag, SoonTag, VoteNowTag } from 'components/Tags'
 import { ProposalState } from 'state/types'
 

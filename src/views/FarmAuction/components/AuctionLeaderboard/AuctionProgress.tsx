@@ -1,4 +1,4 @@
-import { Progress } from '@kiwanoswap/uikit'
+import { Progress } from '@kiwanoproject/uikit'
 import { differenceInSeconds } from 'date-fns'
 import { Auction, AuctionStatus } from 'config/constants/types'
 import { SLOW_INTERVAL } from 'config/constants'

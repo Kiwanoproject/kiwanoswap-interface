@@ -1,4 +1,4 @@
-import { Flex, Text } from '@kiwanoswap/uikit'
+import { Flex, Text } from '@kiwanoproject/uikit'
 import { useTranslation } from 'contexts/Localization'
 
 import { StyledPriceChart } from './styles'

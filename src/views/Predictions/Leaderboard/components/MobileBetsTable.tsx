@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Flex, Text, ChevronUpIcon, ChevronDownIcon } from '@kiwanoswap/uikit'
+import { Flex, Text, ChevronUpIcon, ChevronDownIcon } from '@kiwanoproject/uikit'
 import { useTranslation } from 'contexts/Localization'
 import PreviousBetsTable from './PreviousBetsTable'
 

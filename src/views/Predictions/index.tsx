@@ -1,4 +1,4 @@
-import { useMatchBreakpoints, useModal } from '@kiwanoswap/uikit'
+import { useMatchBreakpoints, useModal } from '@kiwanoproject/uikit'
 import { useWeb3React } from '@web3-react/core'
 import { PageMeta } from 'components/Layout/Page'
 import PageLoader from 'components/Loader/PageLoader'

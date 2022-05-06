@@ -9,7 +9,7 @@ import {
   ChartIcon,
   HistoryIcon,
   IconButton,
-} from '@kiwanoswap/uikit'
+} from '@kiwanoproject/uikit'
 import { useAppDispatch } from 'state'
 import { PredictionStatus } from 'state/types'
 import { useGetPredictionsStatus, useIsChartPaneOpen, useIsHistoryPaneOpen } from 'state/predictions/hooks'

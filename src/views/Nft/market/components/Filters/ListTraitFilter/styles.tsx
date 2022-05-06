@@ -1,4 +1,4 @@
-import { Radio, Text } from '@kiwanoswap/uikit'
+import { Radio, Text } from '@kiwanoproject/uikit'
 import noop from 'lodash/noop'
 import { formatNumber } from 'utils/formatBalance'
 import { ItemImage, StyledItemRow } from '../ListFilter/styles'

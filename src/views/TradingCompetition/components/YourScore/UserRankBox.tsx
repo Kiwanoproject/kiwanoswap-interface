@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Flex, Text, FlexProps } from '@kiwanoswap/uikit'
+import { Flex, Text, FlexProps } from '@kiwanoproject/uikit'
 
 interface UserRankProps extends FlexProps {
   title?: string

@@ -1,4 +1,4 @@
-import { Button, Heading, Skeleton, Text } from '@kiwanoswap/uikit'
+import { Button, Heading, Skeleton, Text } from '@kiwanoproject/uikit'
 import { useWeb3React } from '@web3-react/core'
 import BigNumber from 'bignumber.js'
 import Balance from 'components/Balance'

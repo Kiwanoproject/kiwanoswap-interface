@@ -17,7 +17,7 @@ import {
   Link,
   Message,
   MessageText,
-} from '@kiwanoswap/uikit'
+} from '@kiwanoproject/uikit'
 import { PoolIds, Ifo } from 'config/constants/types'
 import { WalletIfoData, PublicIfoData } from 'views/Ifos/types'
 import { useTranslation } from 'contexts/Localization'

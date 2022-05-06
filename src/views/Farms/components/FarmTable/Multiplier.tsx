@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Text, HelpIcon, Skeleton, useTooltip } from '@kiwanoswap/uikit'
+import { Text, HelpIcon, Skeleton, useTooltip } from '@kiwanoproject/uikit'
 import { useTranslation } from 'contexts/Localization'
 
 const ReferenceElement = styled.div`

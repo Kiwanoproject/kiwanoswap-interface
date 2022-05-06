@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { menuStatus } from '@kiwanoswap/uikit'
+import { menuStatus } from '@kiwanoproject/uikit'
 import { useTranslation } from '../../../contexts/Localization'
 import { useMenuItemsStatus } from './useMenuItemsStatus'
 import config, { ConfigMenuItemsType } from '../config/config'

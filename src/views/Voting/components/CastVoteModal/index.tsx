@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Box, Modal } from '@kiwanoswap/uikit'
+import { Box, Modal } from '@kiwanoproject/uikit'
 import { useWeb3React } from '@web3-react/core'
 import { useTranslation } from 'contexts/Localization'
 import { SnapshotCommand } from 'state/types'
