@@ -1,4 +1,4 @@
-import { Flex, Text } from '@kiwanoproject/uikit'
+import { Flex, Text } from '@kiwanoswap/uikit'
 import styled from 'styled-components'
 import { useTranslation } from 'contexts/Localization'
 import RulesCard from './RulesCard'

@@ -1,5 +1,5 @@
 import { useState, useCallback, memo } from 'react'
-import { Flex, Card } from '@kiwanoproject/uikit'
+import { Flex, Card } from '@kiwanoswap/uikit'
 import useGelatoLimitOrdersHistory from '../../hooks/useGelatoLimitOrdersHistory'
 
 import OrderTab from './OrderTab'

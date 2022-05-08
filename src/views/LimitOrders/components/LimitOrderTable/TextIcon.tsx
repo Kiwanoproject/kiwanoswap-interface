@@ -1,4 +1,4 @@
-import { Flex, Text } from '@kiwanoproject/uikit'
+import { Flex, Text } from '@kiwanoswap/uikit'
 import { ReactElement } from 'react-markdown'
 
 interface TextIconProps {

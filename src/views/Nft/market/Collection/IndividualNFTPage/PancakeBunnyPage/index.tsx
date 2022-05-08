@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Flex } from '@kiwanoproject/uikit'
+import { Flex } from '@kiwanoswap/uikit'
 import Page from 'components/Layout/Page'
 import { useGetCollection } from 'state/nftMarket/hooks'
 import { getNftsFromCollectionApi } from 'state/nftMarket/helpers'

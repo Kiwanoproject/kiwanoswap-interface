@@ -1,4 +1,4 @@
-import { Spinner, Text } from '@kiwanoproject/uikit'
+import { Spinner, Text } from '@kiwanoswap/uikit'
 
 import styled, { keyframes } from 'styled-components'
 

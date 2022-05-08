@@ -1,4 +1,4 @@
-import { ChevronLeftIcon, Flex, Text } from '@kiwanoproject/uikit'
+import { ChevronLeftIcon, Flex, Text } from '@kiwanoswap/uikit'
 import Page from 'components/Layout/Page'
 import { useTranslation } from 'contexts/Localization'
 import { useRouter } from 'next/router'

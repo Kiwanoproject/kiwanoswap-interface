@@ -11,7 +11,7 @@ import {
   Text,
   Th,
   useMatchBreakpoints,
-} from '@kiwanoproject/uikit'
+} from '@kiwanoswap/uikit'
 import { getCollectionActivity } from 'state/nftMarket/helpers'
 import Container from 'components/Layout/Container'
 import TableLoader from 'components/TableLoader'

@@ -12,7 +12,7 @@ import {
   Message,
   MessageText,
   ErrorIcon,
-} from '@kiwanoproject/uikit'
+} from '@kiwanoswap/uikit'
 import { useWeb3React } from '@web3-react/core'
 import { Token } from '@kiwanoswap/sdk'
 import { Ifo, PoolIds } from 'config/constants/types'

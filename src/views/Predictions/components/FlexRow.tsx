@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Flex } from '@kiwanoproject/uikit'
+import { Flex } from '@kiwanoswap/uikit'
 
 const FlexRow = styled(Flex).attrs({ alignItems: 'center' })`
   flex: 1;

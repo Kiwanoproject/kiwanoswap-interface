@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Card, Radio } from '@kiwanoproject/uikit'
+import { Card, Radio } from '@kiwanoswap/uikit'
 
 interface SelectionCardProps {
   name: string

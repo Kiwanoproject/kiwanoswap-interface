@@ -1,6 +1,6 @@
 import { useCallback } from 'react'
 import styled from 'styled-components'
-import { Text, Link } from '@kiwanoproject/uikit'
+import { Text, Link } from '@kiwanoswap/uikit'
 import { isAddress } from 'utils'
 import { useTranslation } from 'contexts/Localization'
 import useActiveWeb3React from '../../../hooks/useActiveWeb3React'

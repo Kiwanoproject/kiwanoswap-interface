@@ -1,4 +1,4 @@
-import { Modal, ModalBody, Text, Image, Button, Link, OpenNewIcon } from '@kiwanoproject/uikit'
+import { Modal, ModalBody, Text, Image, Button, Link, OpenNewIcon } from '@kiwanoswap/uikit'
 import { Token } from '@kiwanoswap/sdk'
 import { useTranslation } from 'contexts/Localization'
 

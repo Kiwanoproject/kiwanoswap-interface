@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import { useCountUp } from 'react-countup'
 import styled from 'styled-components'
-import { BnbUsdtPairTokenIcon, Box, Flex, PocketWatchIcon, Text } from '@kiwanoproject/uikit'
+import { BnbUsdtPairTokenIcon, Box, Flex, PocketWatchIcon, Text } from '@kiwanoswap/uikit'
 import { formatBigNumberToFixed } from 'utils/formatBalance'
 import { useGetCurrentRoundCloseTimestamp } from 'state/predictions/hooks'
 import { useTranslation } from 'contexts/Localization'

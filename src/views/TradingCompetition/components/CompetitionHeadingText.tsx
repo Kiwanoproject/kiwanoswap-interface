@@ -1,4 +1,4 @@
-import { Heading } from '@kiwanoproject/uikit'
+import { Heading } from '@kiwanoswap/uikit'
 import styled, { DefaultTheme } from 'styled-components'
 
 const H1SizeStyles = (theme: DefaultTheme) => `

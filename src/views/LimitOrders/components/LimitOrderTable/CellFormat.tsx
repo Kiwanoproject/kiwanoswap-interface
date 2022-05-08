@@ -1,4 +1,4 @@
-import { Box } from '@kiwanoproject/uikit'
+import { Box } from '@kiwanoswap/uikit'
 import { ReactElement } from 'react-markdown'
 
 interface CellFormatProps {

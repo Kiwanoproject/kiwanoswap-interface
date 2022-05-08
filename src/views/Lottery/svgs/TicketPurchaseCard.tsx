@@ -1,4 +1,4 @@
-import { Svg, SvgProps } from '@kiwanoproject/uikit'
+import { Svg, SvgProps } from '@kiwanoswap/uikit'
 
 const TicketPurchaseCard: React.FC<SvgProps> = (props) => {
   return (

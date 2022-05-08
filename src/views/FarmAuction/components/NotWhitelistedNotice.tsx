@@ -1,4 +1,4 @@
-import { Text, Flex, Message, Box, HelpIcon } from '@kiwanoproject/uikit'
+import { Text, Flex, Message, Box, HelpIcon } from '@kiwanoswap/uikit'
 import { Auction, ConnectedBidder } from 'config/constants/types'
 import { useTranslation } from 'contexts/Localization'
 

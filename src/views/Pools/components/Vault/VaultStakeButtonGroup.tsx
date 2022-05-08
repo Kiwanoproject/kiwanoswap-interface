@@ -1,4 +1,4 @@
-import { Box, Button, TooltipText, useTooltip } from '@kiwanoproject/uikit'
+import { Box, Button, TooltipText, useTooltip } from '@kiwanoswap/uikit'
 import { FlexGap } from 'components/Layout/Flex'
 import { useTranslation } from 'contexts/Localization'
 

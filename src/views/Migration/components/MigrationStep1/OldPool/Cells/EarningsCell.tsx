@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Text, Flex, useMatchBreakpoints } from '@kiwanoproject/uikit'
+import { Text, Flex, useMatchBreakpoints } from '@kiwanoswap/uikit'
 import { DeserializedPool } from 'state/types'
 import BigNumber from 'bignumber.js'
 import { BIG_ZERO } from 'utils/bigNumber'

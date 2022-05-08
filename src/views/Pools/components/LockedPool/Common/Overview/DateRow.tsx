@@ -1,5 +1,5 @@
 import { useTranslation } from 'contexts/Localization'
-import { Text, Flex, TooltipText, useTooltip } from '@kiwanoproject/uikit'
+import { Text, Flex, TooltipText, useTooltip } from '@kiwanoswap/uikit'
 import { format } from 'date-fns'
 
 interface PropsType {

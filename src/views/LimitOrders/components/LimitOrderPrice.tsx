@@ -1,7 +1,7 @@
 import React from 'react'
 import { Currency, Percent, Price } from '@kiwanoswap/sdk'
 import styled from 'styled-components'
-import { Input, Flex, Text, Button, AutoRenewIcon, SyncAltIcon, HelpIcon, useTooltip } from '@kiwanoproject/uikit'
+import { Input, Flex, Text, Button, AutoRenewIcon, SyncAltIcon, HelpIcon, useTooltip } from '@kiwanoswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { escapeRegExp } from 'utils'
 import { Rate } from 'state/limitOrders/types'

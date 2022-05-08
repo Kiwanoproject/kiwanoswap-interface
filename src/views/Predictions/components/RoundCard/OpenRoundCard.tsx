@@ -8,7 +8,7 @@ import {
   useTooltip,
   ArrowUpIcon,
   ArrowDownIcon,
-} from '@kiwanoproject/uikit'
+} from '@kiwanoswap/uikit'
 import { getNow } from 'utils/getNow'
 import { useTranslation } from 'contexts/Localization'
 import { useAppDispatch } from 'state'

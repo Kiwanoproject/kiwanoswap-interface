@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Text, ChevronDownIcon } from '@kiwanoproject/uikit'
+import { Text, ChevronDownIcon } from '@kiwanoswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import BaseCell from './BaseCell'
 

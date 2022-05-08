@@ -11,7 +11,7 @@ import {
   Text,
   WalletFilledIcon,
   Skeleton,
-} from '@kiwanoproject/uikit'
+} from '@kiwanoswap/uikit'
 import { Price } from '@kiwanoswap/sdk'
 import { useTranslation } from 'contexts/Localization'
 import { multiplyPriceByAmount } from 'utils/prices'

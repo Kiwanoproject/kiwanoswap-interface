@@ -14,7 +14,7 @@ import {
   Text,
   useMatchBreakpoints,
   useTooltip,
-} from '@kiwanoproject/uikit'
+} from '@kiwanoswap/uikit'
 import Page from 'components/Layout/Page'
 import { NextLinkFromReactRouter } from 'components/NextLink'
 import { useTranslation } from 'contexts/Localization'

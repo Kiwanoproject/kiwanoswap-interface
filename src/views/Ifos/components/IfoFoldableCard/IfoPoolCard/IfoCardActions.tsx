@@ -1,5 +1,5 @@
 import { useTranslation } from 'contexts/Localization'
-import { Button } from '@kiwanoproject/uikit'
+import { Button } from '@kiwanoswap/uikit'
 import { useWeb3React } from '@web3-react/core'
 import { NextLinkFromReactRouter } from 'components/NextLink'
 import { Ifo, PoolIds } from 'config/constants/types'

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useTranslation } from 'contexts/Localization'
-import { Text, Flex, Checkbox, Button } from '@kiwanoproject/uikit'
+import { Text, Flex, Checkbox, Button } from '@kiwanoswap/uikit'
 
 interface AcknowledgementProps {
   handleContinueClick: () => void

@@ -1,4 +1,4 @@
-import { Text } from '@kiwanoproject/uikit'
+import { Text } from '@kiwanoswap/uikit'
 import styled from 'styled-components'
 
 const CrossText = styled(Text)`

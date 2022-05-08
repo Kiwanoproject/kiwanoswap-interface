@@ -1,4 +1,4 @@
-import { Td, Text } from '@kiwanoproject/uikit'
+import { Td, Text } from '@kiwanoswap/uikit'
 import { PredictionUser } from 'state/types'
 import ResultAvatar from './ResultAvatar'
 import { NetWinnings } from './styles'

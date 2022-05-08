@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { useWeb3React } from '@web3-react/core'
 import { Price } from '@kiwanoswap/sdk'
-import { Button, Grid, Text, Flex, Box, BinanceIcon, useModal, Skeleton } from '@kiwanoproject/uikit'
+import { Button, Grid, Text, Flex, Box, BinanceIcon, useModal, Skeleton } from '@kiwanoswap/uikit'
 import { formatNumber } from 'utils/formatBalance'
 import { ContextApi } from 'contexts/Localization/types'
 import { useTranslation } from 'contexts/Localization'

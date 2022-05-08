@@ -1,4 +1,4 @@
-import { Flex } from '@kiwanoproject/uikit'
+import { Flex } from '@kiwanoswap/uikit'
 import styled from 'styled-components'
 
 export const StyledBunnySectionContainer = styled(Flex)`

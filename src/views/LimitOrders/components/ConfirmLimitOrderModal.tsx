@@ -9,7 +9,7 @@ import {
   Modal,
   Spinner,
   Text,
-} from '@kiwanoproject/uikit'
+} from '@kiwanoswap/uikit'
 import { CurrencyLogo } from 'components/Logo'
 import { TransactionErrorContent, TransactionSubmittedContent } from 'components/TransactionConfirmationModal'
 import { useTranslation } from 'contexts/Localization'

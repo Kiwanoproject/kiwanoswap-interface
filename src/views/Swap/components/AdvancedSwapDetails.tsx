@@ -1,5 +1,5 @@
 import { Trade, TradeType } from '@kiwanoswap/sdk'
-import { Text } from '@kiwanoproject/uikit'
+import { Text } from '@kiwanoswap/uikit'
 import { Field } from 'state/swap/actions'
 import { useTranslation } from 'contexts/Localization'
 import { useUserSlippageTolerance } from 'state/user/hooks'

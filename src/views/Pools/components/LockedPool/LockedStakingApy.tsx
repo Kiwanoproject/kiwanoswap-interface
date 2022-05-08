@@ -1,7 +1,7 @@
 import { useMemo, memo } from 'react'
 import { getVaultPosition, VaultPosition } from 'utils/cakePool'
 
-import { Flex, Text, Box, TooltipText, useTooltip } from '@kiwanoproject/uikit'
+import { Flex, Text, Box, TooltipText, useTooltip } from '@kiwanoswap/uikit'
 import { LightGreyCard } from 'components/Card'
 import { useTranslation } from 'contexts/Localization'
 import { useVaultApy } from 'hooks/useVaultApy'

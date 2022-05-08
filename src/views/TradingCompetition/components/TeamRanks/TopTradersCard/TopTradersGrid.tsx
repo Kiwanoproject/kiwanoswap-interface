@@ -1,4 +1,4 @@
-import { Box, Skeleton } from '@kiwanoproject/uikit'
+import { Box, Skeleton } from '@kiwanoswap/uikit'
 import styled from 'styled-components'
 import { LeaderboardDataItem } from '../../../types'
 import GridItem from './GridItem'

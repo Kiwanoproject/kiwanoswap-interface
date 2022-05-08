@@ -13,7 +13,7 @@ import {
   IconButton,
   Skeleton,
   Box,
-} from '@kiwanoproject/uikit'
+} from '@kiwanoswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { useWeb3React } from '@web3-react/core'
 import { useAppDispatch } from 'state'

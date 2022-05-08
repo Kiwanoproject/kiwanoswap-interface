@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Modal, Button, Flex, AutoRenewIcon, Heading, Text } from '@kiwanoproject/uikit'
+import { Modal, Button, Flex, AutoRenewIcon, Heading, Text } from '@kiwanoswap/uikit'
 import Image from 'next/image'
 import { useTranslation } from 'contexts/Localization'
 import { useTradingCompetitionContractMobox } from 'hooks/useContract'

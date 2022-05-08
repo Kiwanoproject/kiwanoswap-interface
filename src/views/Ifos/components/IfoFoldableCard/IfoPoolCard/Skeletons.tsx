@@ -1,4 +1,4 @@
-import { Flex, Skeleton } from '@kiwanoproject/uikit'
+import { Flex, Skeleton } from '@kiwanoswap/uikit'
 
 export const SkeletonCardActions = () => {
   return <Skeleton height="48px" />

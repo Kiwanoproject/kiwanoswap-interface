@@ -1,4 +1,4 @@
-import { CardProps } from '@kiwanoproject/uikit'
+import { CardProps } from '@kiwanoswap/uikit'
 import { NftLocation, NftToken } from 'state/nftMarket/types'
 
 export interface CollectibleCardProps extends CardProps {

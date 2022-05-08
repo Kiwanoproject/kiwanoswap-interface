@@ -1,4 +1,4 @@
-import { BoxProps, Text } from '@kiwanoproject/uikit'
+import { BoxProps, Text } from '@kiwanoswap/uikit'
 import { NodeRound } from 'state/types'
 import { useTranslation } from 'contexts/Localization'
 import { getRoundPosition } from '../../helpers'

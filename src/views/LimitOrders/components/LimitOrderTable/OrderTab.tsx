@@ -1,4 +1,4 @@
-import { ButtonMenu, ButtonMenuItem } from '@kiwanoproject/uikit'
+import { ButtonMenu, ButtonMenuItem } from '@kiwanoswap/uikit'
 import styled from 'styled-components'
 import useTheme from 'hooks/useTheme'
 import { useTranslation } from 'contexts/Localization'

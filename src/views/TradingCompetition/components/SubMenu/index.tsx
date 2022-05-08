@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { Flex } from '@kiwanoproject/uikit'
+import { Flex } from '@kiwanoswap/uikit'
 
 const Container = styled(Flex)<{ isOnFinishedPage: boolean }>`
   gap: 8px;

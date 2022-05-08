@@ -1,4 +1,4 @@
-import { Box, Flex, lightColors, Text } from '@kiwanoproject/uikit'
+import { Box, Flex, lightColors, Text } from '@kiwanoswap/uikit'
 import styled from 'styled-components'
 
 export const StyledSquadHeaderContainer = styled(Flex)`

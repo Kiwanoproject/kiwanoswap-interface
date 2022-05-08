@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { CopyIcon, SvgProps } from '@kiwanoproject/uikit'
+import { CopyIcon, SvgProps } from '@kiwanoswap/uikit'
 import { copyText } from 'utils/copyText'
 import styled from 'styled-components'
 

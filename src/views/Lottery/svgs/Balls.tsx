@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Svg, SvgProps, Text, Flex } from '@kiwanoproject/uikit'
+import { Svg, SvgProps, Text, Flex } from '@kiwanoswap/uikit'
 
 export const PinkBall: React.FC<SvgProps> = (props) => {
   return (

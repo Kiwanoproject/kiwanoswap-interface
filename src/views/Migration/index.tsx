@@ -1,7 +1,7 @@
 import React, { memo, useState, useRef, useMemo } from 'react'
 import { useRouter } from 'next/router'
 import { useWeb3React } from '@web3-react/core'
-import { Heading, Text, Button, ArrowForwardIcon, Link } from '@kiwanoproject/uikit'
+import { Heading, Text, Button, ArrowForwardIcon, Link } from '@kiwanoswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { usePollFarmsV1WithUserData } from 'state/farmsV1/hooks'
 import { VaultKey } from 'state/types'

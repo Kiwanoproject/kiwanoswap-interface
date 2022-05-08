@@ -1,4 +1,4 @@
-import { Flex, Text, Button, Heading, useModal, Skeleton } from '@kiwanoproject/uikit'
+import { Flex, Text, Button, Heading, useModal, Skeleton } from '@kiwanoswap/uikit'
 import BigNumber from 'bignumber.js'
 import { Token } from '@kiwanoswap/sdk'
 import { useTranslation } from 'contexts/Localization'

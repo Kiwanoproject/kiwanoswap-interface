@@ -1,6 +1,6 @@
 import { Token } from '@kiwanoswap/sdk'
 import Balance from 'components/Balance'
-import { Flex, Skeleton, Text, TooltipText, useTooltip } from '@kiwanoproject/uikit'
+import { Flex, Skeleton, Text, TooltipText, useTooltip } from '@kiwanoswap/uikit'
 import BigNumber from 'bignumber.js'
 import { useTranslation } from 'contexts/Localization'
 import { FC, ReactNode } from 'react'

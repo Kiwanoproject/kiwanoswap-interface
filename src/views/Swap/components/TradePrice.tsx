@@ -1,5 +1,5 @@
 import { Price } from '@kiwanoswap/sdk'
-import { Text, AutoRenewIcon } from '@kiwanoproject/uikit'
+import { Text, AutoRenewIcon } from '@kiwanoswap/uikit'
 import { StyledBalanceMaxMini } from './styleds'
 
 interface TradePriceProps {

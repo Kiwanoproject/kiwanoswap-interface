@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { ArrowDownIcon, ArrowUpIcon } from '@kiwanoproject/uikit'
+import { ArrowDownIcon, ArrowUpIcon } from '@kiwanoswap/uikit'
 import { BetPosition } from 'state/types'
 import { useTranslation } from 'contexts/Localization'
 

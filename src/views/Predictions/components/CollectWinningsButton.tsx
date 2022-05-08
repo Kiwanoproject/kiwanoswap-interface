@@ -1,4 +1,4 @@
-import { Button, ButtonProps, useModal } from '@kiwanoproject/uikit'
+import { Button, ButtonProps, useModal } from '@kiwanoswap/uikit'
 import CollectRoundWinningsModal from './CollectRoundWinningsModal'
 
 interface CollectWinningsButtonProps extends ButtonProps {

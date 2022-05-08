@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Token } from '@kiwanoswap/sdk'
-import { ButtonMenu, ButtonMenuItem, ModalBody } from '@kiwanoproject/uikit'
+import { ButtonMenu, ButtonMenuItem, ModalBody } from '@kiwanoswap/uikit'
 import styled from 'styled-components'
 import { TokenList } from '@uniswap/token-lists'
 import { useTranslation } from 'contexts/Localization'

@@ -1,4 +1,4 @@
-import { Box, Button, Text } from '@kiwanoproject/uikit'
+import { Box, Button, Text } from '@kiwanoswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { useAppDispatch } from 'state'
 import { setHistoryPaneState } from 'state/predictions'

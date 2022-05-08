@@ -1,5 +1,5 @@
 import { memo } from 'react'
-import { Skeleton, Table, Td } from '@kiwanoproject/uikit'
+import { Skeleton, Table, Td } from '@kiwanoswap/uikit'
 
 const LoadingTable = () => (
   <Table>

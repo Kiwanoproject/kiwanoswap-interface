@@ -9,7 +9,7 @@ import {
   useTooltip,
   TooltipText,
   InfoIcon,
-} from '@kiwanoproject/uikit'
+} from '@kiwanoswap/uikit'
 import { BetPosition } from 'state/types'
 import { useTranslation } from 'contexts/Localization'
 
