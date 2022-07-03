@@ -8,7 +8,7 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Contact",
-        href: "https://docs.pancakeswap.finance/contact-us",
+        href: "https://docs.kiwanoswap.io/contact-us",
       },
       {
         label: "Blog",
@@ -21,7 +21,7 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Customer",
-        href: "Support https://docs.pancakeswap.finance/contact-us/customer-support",
+        href: "Support https://docs.kiwanoswap.io/contact-us/customer-support",
       },
     ],
   },
@@ -30,7 +30,7 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Audits",
-        href: "https://docs.pancakeswap.finance/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited",
+        href: "https://docs.kiwanoswap.io/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited",
       },
     ],
   },

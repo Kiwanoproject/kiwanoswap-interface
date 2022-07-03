@@ -52,7 +52,7 @@ const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType
       },
       {
         label: t('Docs'),
-        href: 'https://docs.pancakeswap.finance',
+        href: 'https://docs.kiwanoswap.io',
         type: DropdownMenuItemType.EXTERNAL_LINK,
       },
     ],
