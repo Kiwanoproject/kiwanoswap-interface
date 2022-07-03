@@ -37,7 +37,7 @@ export const connectorsByName = {
     return new WalletLinkConnector({
       url: rpcUrl,
       appName: 'KiwanoSwap',
-      appLogoUrl: 'https://pancakeswap.com/logo.png',
+      appLogoUrl: 'https://kiwanoswap.io/logo.png',
       supportedChainIds: [ChainId.MAINNET, ChainId.TESTNET],
     })
   },
