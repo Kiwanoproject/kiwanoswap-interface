@@ -2,6 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 const ResetCSS = createGlobalStyle`
   /* prettier-ignore */
+  @import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&display=swap");
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -64,7 +65,7 @@ const ResetCSS = createGlobalStyle`
     box-sizing: border-box;
   }
   * {
-    font-family: 'Kanit', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -85,11 +86,11 @@ const ResetCSS = createGlobalStyle`
   }
   ::-webkit-scrollbar-thumb {
     background: ${({ theme }) => theme.colors.textSubtle}; 
-    border-radius: 8px;
+    border-radius: 5px;
   }
   ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px ${({ theme }) => theme.colors.input}; 
-    border-radius: 10px;
+    border-radius: 5px;
   }
 
   /* Slider */ 

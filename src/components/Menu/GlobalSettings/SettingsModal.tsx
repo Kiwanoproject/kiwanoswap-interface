@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import styled from 'styled-components'
-import { Text, PancakeToggle, Toggle, Flex, Modal, InjectedModalProps, ThemeSwitcher } from '@kiwanoswap/uikit'
+import { Text, /* PancakeToggle, */ Toggle, Flex, Modal, InjectedModalProps, ThemeSwitcher } from '@kiwanoswap/uikit'
 import {
-  useAudioModeManager,
+  /* useAudioModeManager, */
   useExpertModeManager,
-  useSubgraphHealthIndicatorManager,
+  /* useSubgraphHealthIndicatorManager, */
   useUserExpertModeAcknowledgementShow,
   useUserSingleHopOnly,
 } from 'state/user/hooks'
@@ -29,8 +29,8 @@ const SettingsModal: React.FC<InjectedModalProps> = ({ onDismiss }) => {
   const [showExpertModeAcknowledgement, setShowExpertModeAcknowledgement] = useUserExpertModeAcknowledgementShow()
   const [expertMode, toggleExpertMode] = useExpertModeManager()
   const [singleHopOnly, setSingleHopOnly] = useUserSingleHopOnly()
-  const [audioPlay, toggleSetAudioMode] = useAudioModeManager()
-  const [subgraphHealth, setSubgraphHealth] = useSubgraphHealthIndicatorManager()
+  // const [audioPlay, toggleSetAudioMode] = useAudioModeManager()
+  // const [subgraphHealth, setSubgraphHealth] = useSubgraphHealthIndicatorManager()
   const { onChangeRecipient } = useSwapActionHandlers()
 
   const { t } = useTranslation()
@@ -107,7 +107,7 @@ const SettingsModal: React.FC<InjectedModalProps> = ({ onDismiss }) => {
             }}
           />
         </Flex>
-        <Flex justifyContent="space-between" alignItems="center" mb="24px">
+        {/* <Flex justifyContent="space-between" alignItems="center" mb="24px">
           <Flex alignItems="center">
             <Text>{t('Subgraph Health Indicator')}</Text>
             <QuestionHelper
@@ -126,8 +126,8 @@ const SettingsModal: React.FC<InjectedModalProps> = ({ onDismiss }) => {
               setSubgraphHealth(!subgraphHealth)
             }}
           />
-        </Flex>
-        <Flex justifyContent="space-between" alignItems="center">
+        </Flex> */}
+        {/* <Flex justifyContent="space-between" alignItems="center">
           <Flex alignItems="center">
             <Text>{t('Flippy sounds')}</Text>
             <QuestionHelper
@@ -137,7 +137,7 @@ const SettingsModal: React.FC<InjectedModalProps> = ({ onDismiss }) => {
             />
           </Flex>
           <PancakeToggle checked={audioPlay} onChange={toggleSetAudioMode} scale="md" />
-        </Flex>
+        </Flex> */}
       </ScrollableContainer>
     </Modal>
   )

@@ -5,7 +5,7 @@ import ConnectWalletButton from 'components/ConnectWalletButton'
 import Container from 'components/Layout/Container'
 import { useWeb3React } from '@web3-react/core'
 import SunburstSvg from './SunburstSvg'
-import CompositeImage from './CompositeImage'
+// import CompositeImage from './CompositeImage'
 
 const BgWrapper = styled.div`
   overflow: hidden;
@@ -91,14 +91,14 @@ const Footer = () => {
           <StyledSunburst />
         </Flex>
       </BgWrapper>
-      <FloatingPancakesWrapper>
+      {/* <FloatingPancakesWrapper>
         <TopLeftImgWrapper>
           <CompositeImage {...topLeftImage} maxHeight="256px" />
         </TopLeftImgWrapper>
         <BottomRightImgWrapper>
           <CompositeImage {...bottomRightImage} maxHeight="256px" />
         </BottomRightImgWrapper>
-      </FloatingPancakesWrapper>
+      </FloatingPancakesWrapper> */}
       <Wrapper>
         <Heading mb="24px" scale="xl" color="white">
           {t('Start in seconds.')}
@@ -110,9 +110,6 @@ const Footer = () => {
           {t('No registration needed.')}
         </Text>
 
-        <Link external href="https://docs.pancakeswap.finance/">
-          {t('Learn how to start')}
-        </Link>
         {!account && <ConnectWalletButton mt="24px" />}
       </Wrapper>
     </>

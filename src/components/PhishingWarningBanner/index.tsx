@@ -8,11 +8,11 @@ const Container = styled(Flex)`
   height: 100%;
   padding: 12px;
   align-items: center;
-  background: linear-gradient(0deg, rgba(39, 38, 44, 0.4), rgba(39, 38, 44, 0.4)),
-    linear-gradient(180deg, #8051d6 0%, #492286 100%);
+  background: linear-gradient(0deg, rgba(9, 8, 55, 0.4), rgba(9, 8, 55, 0.4)),
+    linear-gradient(180deg, #393898 0%, #090837 100%);
   ${({ theme }) => theme.mediaQueries.md} {
     padding: 0px;
-    background: linear-gradient(180deg, #8051d6 0%, #492286 100%);
+    background: linear-gradient(180deg, #393898 0%, #090837 100%);
   }
 `
 
@@ -43,8 +43,8 @@ const PhishingWarningBanner: React.FC = () => {
   const { t } = useTranslation()
   const [, hideBanner] = usePhishingBannerManager()
   const { isMobile, isMd } = useMatchBreakpoints()
-  const warningText = t("please make sure you're visiting https://swap.kiwanoproject.com - check the URL carefully.")
-  const warningTextAsParts = warningText.split(/(https:\/\/swap.kiwanoproject.com)/g)
+  const warningText = t("please make sure you're visiting https://kiwanoswap.io - check the URL carefully.")
+  const warningTextAsParts = warningText.split(/(https:\/\/kiwanoswap.io)/g)
   const warningTextComponent = (
     <>
       <Text as="span" color="warning" small bold textTransform="uppercase">
@@ -76,11 +76,11 @@ const PhishingWarningBanner: React.FC = () => {
       ) : (
         <>
           <InnerContainer>
-            <picture>
+            {/* <picture>
               <source type="image/webp" srcSet="/images/decorations/phishing-warning-bunny.webp" />
               <source type="image/png" srcSet="/images/decorations/phishing-warning-bunny.png" />
               <img src="/images/decorations/phishing-warning-bunny.png" alt="phishing-warning" width="92px" />
-            </picture>
+            </picture> */}
             <SpeechBubble>{warningTextComponent}</SpeechBubble>
           </InnerContainer>
           <IconButton onClick={hideBanner} variant="text">

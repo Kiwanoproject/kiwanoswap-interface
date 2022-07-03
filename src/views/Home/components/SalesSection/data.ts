@@ -50,9 +50,9 @@ export const earnSectionData = (t: TranslateFunction): SalesSectionProps => ({
 })
 
 export const cakeSectionData = (t: TranslateFunction): SalesSectionProps => ({
-  headingText: t('WANO makes our world go round.'),
+  headingText: t('WANO makes the Kiwano Project ecosystem go round.'),
   bodyText: t(
-    'WANO token is at the heart of the KiwanoSwap ecosystem. Buy it, win it, farm it, spend it, stake it... heck, you can even vote with it!',
+    'WANO token is at the is the official token of the Kiwano Project ecosystem. Buy it, win it, spend it, stake it',
   ),
   reverse: false,
   primaryButton: {
@@ -69,10 +69,10 @@ export const cakeSectionData = (t: TranslateFunction): SalesSectionProps => ({
   images: {
     path: '/images/home/cake/',
     attributes: [
-      { src: 'bottom-right', alt: t('Small 3d pancake') },
-      { src: 'top-right', alt: t('Small 3d pancake') },
+      // { src: 'bottom-right', alt: t('Small 3d pancake') },
+      // { src: 'top-right', alt: t('Small 3d pancake') },
       { src: 'coin', alt: t('WANO token') },
-      { src: 'top-left', alt: t('Small 3d pancake') },
+      // { src: 'top-left', alt: t('Small 3d pancake') },
     ],
   },
 })

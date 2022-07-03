@@ -1,6 +1,6 @@
 const variants = {
   warning: {
-    background: "#FFB23719",
+    background: "#babb0119",
     borderColor: "warning",
   },
   danger: {
