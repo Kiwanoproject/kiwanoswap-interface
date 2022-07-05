@@ -35,7 +35,7 @@ const tvl = 6082955532.115718
 export const getStaticProps: GetStaticProps = async () => {
   const totalTxQuery = gql`
     query TotalTransactions($id: ID!, $block: Block_height) {
-      pancakeFactory(id: $id, block: $block) {
+      KiwanoSwapFactory(id: $id, block: $block) {
         totalTransactions
       }
     }
@@ -68,13 +68,13 @@ export const getStaticProps: GetStaticProps = async () => {
       })
 
       if (
-        totalTx?.pancakeFactory?.totalTransactions &&
-        totalTx30DaysAgo?.pancakeFactory?.totalTransactions &&
-        parseInt(totalTx.pancakeFactory.totalTransactions) > parseInt(totalTx30DaysAgo.pancakeFactory.totalTransactions)
+        totalTx?.KiwanoSwapFactory?.totalTransactions &&
+        totalTx30DaysAgo?.KiwanoSwapFactory?.totalTransactions &&
+        parseInt(totalTx.KiwanoSwapFactory.totalTransactions) > parseInt(totalTx30DaysAgo.KiwanoSwapFactory.totalTransactions)
       ) {
         results.totalTx30Days =
-          parseInt(totalTx.pancakeFactory.totalTransactions) -
-          parseInt(totalTx30DaysAgo.pancakeFactory.totalTransactions)
+          parseInt(totalTx.KiwanoSwapFactory.totalTransactions) -
+          parseInt(totalTx30DaysAgo.KiwanoSwapFactory.totalTransactions)
       }
     } catch (error) {
       if (process.env.NODE_ENV === 'production') {
@@ -112,7 +112,7 @@ export const getStaticProps: GetStaticProps = async () => {
   try {
     const result = await infoServerClient.request(gql`
       query tvl {
-        pancakeFactories(first: 1) {
+        KiwanoSwapFactories(first: 1) {
           totalLiquidityUSD
         }
         token(id: "0x4eEC1Dc3a43d8F53A36d4A416fC30b1B6C287d13") {
@@ -120,7 +120,7 @@ export const getStaticProps: GetStaticProps = async () => {
         }
       }
     `)
-    const { totalLiquidityUSD } = result.pancakeFactories[0]
+    const { totalLiquidityUSD } = result.KiwanoSwapFactories[0]
     const cakeVaultV2 = getCakeVaultAddress()
     const cakeContract = getCakeContract()
     const totalCakeInVault = await cakeContract.balanceOf(cakeVaultV2)
