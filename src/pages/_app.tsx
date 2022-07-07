@@ -2,6 +2,7 @@ import { ResetCSS } from '@kiwanoswap/uikit'
 import Script from 'next/script'
 import dynamic from 'next/dynamic'
 import BigNumber from 'bignumber.js'
+import GlobalCheckClaimStatus from 'components/GlobalCheckClaimStatus'
 import FixedSubgraphHealthIndicator from 'components/SubgraphHealthIndicator'
 import { ToastListener } from 'contexts/ToastsContext'
 import useEagerConnect from 'hooks/useEagerConnect'
@@ -65,6 +66,18 @@ function MyApp(props: AppProps) {
         <meta name="twitter:title" content="🥞 KiwanoSwap - A next evolution DeFi exchange on BNB Smart Chain (BSC)" />
         <title>KiwanoSwap</title>
       </Head>
+      <Providers store={store}>
+        <Blocklist>
+          <GlobalHooks />
+          <Updaters />
+          <ResetCSS />
+          <GlobalStyle />
+          <GlobalCheckClaimStatus excludeLocations={[]} />
+          <PersistGate loading={null} persistor={persistor}>
+            <App {...props} />
+          </PersistGate>
+        </Blocklist>
+      </Providers>
       <Script
         strategy="afterInteractive"
         id="google-tag"

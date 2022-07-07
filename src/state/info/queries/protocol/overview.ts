@@ -6,14 +6,14 @@ import { useBlocksFromTimestamps } from 'views/Info/hooks/useBlocksFromTimestamp
 import { getChangeForPeriod, getPercentChange } from 'views/Info/utils/infoDataHelpers'
 import { getDeltaTimestamps } from 'views/Info/utils/infoQueryHelpers'
 
-interface KiwanoSwapFactory {
+interface kiwanoswapFactory {
   totalTransactions: string
   totalVolumeUSD: string
   totalLiquidityUSD: string
 }
 
 interface OverviewResponse {
-  KiwanoSwapFactories: KiwanoSwapFactory[]
+  kiwanoswapFactories: kiwanoswapFactory[]
 }
 
 /**
@@ -22,7 +22,7 @@ interface OverviewResponse {
 const getOverviewData = async (block?: number): Promise<{ data?: OverviewResponse; error: boolean }> => {
   try {
     const query = gql`query overview {
-      KiwanoSwapFactories(
+      kiwanoswapFactories(
         ${block ? `block: { number: ${block}}` : ``}
         first: 1) {
         totalTransactions
@@ -38,12 +38,12 @@ const getOverviewData = async (block?: number): Promise<{ data?: OverviewRespons
   }
 }
 
-const formatKiwanoSwapFactoryResponse = (rawKiwanoSwapFactory?: KiwanoSwapFactory) => {
-  if (rawKiwanoSwapFactory) {
+const formatkiwanoswapFactoryResponse = (rawkiwanoswapFactory?: kiwanoswapFactory) => {
+  if (rawkiwanoswapFactory) {
     return {
-      totalTransactions: parseFloat(rawKiwanoSwapFactory.totalTransactions),
-      totalVolumeUSD: parseFloat(rawKiwanoSwapFactory.totalVolumeUSD),
-      totalLiquidityUSD: parseFloat(rawKiwanoSwapFactory.totalLiquidityUSD),
+      totalTransactions: parseFloat(rawkiwanoswapFactory.totalTransactions),
+      totalVolumeUSD: parseFloat(rawkiwanoswapFactory.totalVolumeUSD),
+      totalLiquidityUSD: parseFloat(rawkiwanoswapFactory.totalLiquidityUSD),
     }
   }
   return null
@@ -68,9 +68,9 @@ const useFetchProtocolData = (): ProtocolFetchState => {
       const { error: error24, data: data24 } = await getOverviewData(block24?.number ?? undefined)
       const { error: error48, data: data48 } = await getOverviewData(block48?.number ?? undefined)
       const anyError = error || error24 || error48
-      const overviewData = formatKiwanoSwapFactoryResponse(data?.KiwanoSwapFactories?.[0])
-      const overviewData24 = formatKiwanoSwapFactoryResponse(data24?.KiwanoSwapFactories?.[0])
-      const overviewData48 = formatKiwanoSwapFactoryResponse(data48?.KiwanoSwapFactories?.[0])
+      const overviewData = formatkiwanoswapFactoryResponse(data?.kiwanoswapFactories?.[0])
+      const overviewData24 = formatkiwanoswapFactoryResponse(data24?.kiwanoswapFactories?.[0])
+      const overviewData48 = formatkiwanoswapFactoryResponse(data48?.kiwanoswapFactories?.[0])
       const allDataAvailable = overviewData && overviewData24 && overviewData48
       if (anyError || !allDataAvailable) {
         setFetchState({
