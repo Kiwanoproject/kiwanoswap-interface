@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction } from 'react'
-import { Token } from '@kiwanoswap/sdk'
+import { Token } from '@KiwanoSwap/sdk'
 import BigNumber from 'bignumber.js'
 import { VaultPosition, VaultPositionParams } from 'utils/cakePool'
 import { DeserializedLockedVaultUser } from 'state/types'

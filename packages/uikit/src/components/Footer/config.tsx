@@ -8,11 +8,11 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Contact",
-        href: "https://docs.kiwanoswap.io/contact-us",
+        href: "https://docs.KiwanoSwap.io/contact-us",
       },
       {
         label: "Blog",
-        href: "https://pancakeswap.medium.com/",
+        href: "https://blog.kiwanoproject.com/",
       },
     ],
   },
@@ -21,7 +21,7 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Customer",
-        href: "Support https://docs.kiwanoswap.io/contact-us/customer-support",
+        href: "Support https://docs.KiwanoSwap.io/contact-us/customer-support",
       },
     ],
   },
@@ -30,7 +30,7 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Audits",
-        href: "https://docs.kiwanoswap.io/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited",
+        href: "https://docs.KiwanoSwap.io/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited",
       },
     ],
   },
@@ -111,7 +111,7 @@ export const socials = [
   {
     label: "Medium",
     icon: MediumIcon,
-    href: "https://pancakeswap.medium.com/",
+    href: "https://blog.kiwanoproject.com/",
   },
 ];
 

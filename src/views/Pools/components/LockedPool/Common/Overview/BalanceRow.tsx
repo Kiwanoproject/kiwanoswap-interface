@@ -1,5 +1,5 @@
 import { memo } from 'react'
-import { Text, Flex, TooltipText, useTooltip } from '@kiwanoswap/uikit'
+import { Text, Flex, TooltipText, useTooltip } from '@KiwanoSwap/uikit'
 import { BalanceWithLoading } from 'components/Balance'
 import isUndefinedOrNull from 'utils/isUndefinedOrNull'
 import _toNumber from 'lodash/toNumber'

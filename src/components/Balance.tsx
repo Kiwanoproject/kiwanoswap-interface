@@ -1,4 +1,4 @@
-import { Text, TextProps, Skeleton } from '@kiwanoswap/uikit'
+import { Text, TextProps, Skeleton } from '@KiwanoSwap/uikit'
 import { useEffect, useRef } from 'react'
 import CountUp from 'react-countup'
 import styled, { keyframes } from 'styled-components'

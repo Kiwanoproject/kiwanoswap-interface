@@ -1,4 +1,4 @@
-import { Box, Card, CardBody, CardHeader, Flex, Text, Message, Button } from '@kiwanoswap/uikit'
+import { Box, Card, CardBody, CardHeader, Flex, Text, Message, Button } from '@KiwanoSwap/uikit'
 import styled from 'styled-components'
 import BigNumber from 'bignumber.js'
 import Balance from 'components/Balance'

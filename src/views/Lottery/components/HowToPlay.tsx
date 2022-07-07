@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Box, Flex, Text, Heading, useMatchBreakpoints, Link, Image } from '@kiwanoswap/uikit'
+import { Box, Flex, Text, Heading, useMatchBreakpoints, Link, Image } from '@KiwanoSwap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import useTheme from 'hooks/useTheme'
 import { BallWithNumber, MatchExampleA, MatchExampleB, PoolAllocationChart } from '../svgs'
@@ -332,7 +332,7 @@ const HowToPlay: React.FC = () => {
                 {t(
                   'An average total of 35,000 WANO from the treasury is added to lottery rounds over the course of a week. This WANO is of course also included in rollovers! Read more in our guide to ',
                 )}
-                <InlineLink href="https://docs.kiwanoswap.io/tokenomics/cake/cake-tokenomics">
+                <InlineLink href="https://docs.KiwanoSwap.io/tokenomics/cake/cake-tokenomics">
                   {t('WANO Tokenomics')}
                 </InlineLink>
               </Text>
@@ -352,7 +352,7 @@ const HowToPlay: React.FC = () => {
           </Heading>
           <Text>
             {t('Check our in-depth guide on')}{' '}
-            <InlineLink href="https://docs.kiwanoswap.io/products/lottery/lottery-guide">
+            <InlineLink href="https://docs.KiwanoSwap.io/products/lottery/lottery-guide">
               {t('how to play the KiwanoSwap lottery!')}
             </InlineLink>
           </Text>

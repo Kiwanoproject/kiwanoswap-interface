@@ -1,4 +1,4 @@
-import { Currency } from '@kiwanoswap/sdk'
+import { Currency } from '@KiwanoSwap/sdk'
 import styled from 'styled-components'
 import CurrencyLogo from './CurrencyLogo'
 

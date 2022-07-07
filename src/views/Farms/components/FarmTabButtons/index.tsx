@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { ButtonMenu, ButtonMenuItem, NotificationDot } from '@kiwanoswap/uikit'
+import { ButtonMenu, ButtonMenuItem, NotificationDot } from '@KiwanoSwap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { useRouter } from 'next/router'
 import { NextLinkFromReactRouter } from 'components/NextLink'

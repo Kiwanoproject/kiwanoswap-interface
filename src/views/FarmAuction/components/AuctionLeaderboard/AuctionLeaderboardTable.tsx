@@ -14,7 +14,7 @@ import {
   SubMenuItem,
   EllipsisIcon,
   LinkExternal,
-} from '@kiwanoswap/uikit'
+} from '@KiwanoSwap/uikit'
 import { getBscScanLink } from 'utils'
 import { getBalanceNumber } from 'utils/formatBalance'
 import { useTranslation } from 'contexts/Localization'

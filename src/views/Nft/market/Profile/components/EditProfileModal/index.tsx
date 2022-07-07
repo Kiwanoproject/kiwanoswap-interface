@@ -1,4 +1,4 @@
-import { InjectedModalProps, Modal } from '@kiwanoswap/uikit'
+import { InjectedModalProps, Modal } from '@KiwanoSwap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { ContextApi } from 'contexts/Localization/types'
 import useEditProfile, { Views } from './reducer'

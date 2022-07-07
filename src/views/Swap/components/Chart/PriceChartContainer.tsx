@@ -1,4 +1,4 @@
-import { Currency } from '@kiwanoswap/sdk'
+import { Currency } from '@KiwanoSwap/sdk'
 import useTheme from 'hooks/useTheme'
 import { useCallback, useState } from 'react'
 import BnbWbnbNotice from './BnbWbnbNotice'

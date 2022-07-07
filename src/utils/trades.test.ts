@@ -1,4 +1,4 @@
-import { Trade, Route, Token, ChainId, Pair, TokenAmount, JSBI, TradeType } from '@kiwanoswap/sdk'
+import { Trade, Route, Token, ChainId, Pair, TokenAmount, JSBI, TradeType } from '@KiwanoSwap/sdk'
 import { BETTER_TRADE_LESS_HOPS_THRESHOLD } from 'config/constants'
 import { isTradeBetter } from './trades'
 

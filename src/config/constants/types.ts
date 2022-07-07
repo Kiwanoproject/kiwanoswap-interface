@@ -1,5 +1,5 @@
 import BigNumber from 'bignumber.js'
-import { Token } from '@kiwanoswap/sdk'
+import { Token } from '@KiwanoSwap/sdk'
 
 export type TranslatableText =
   | string

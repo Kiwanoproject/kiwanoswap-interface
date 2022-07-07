@@ -1,4 +1,4 @@
-import { Currency } from '@kiwanoswap/sdk'
+import { Currency } from '@KiwanoSwap/sdk'
 import {
   ArrowDownIcon,
   Button,
@@ -9,7 +9,7 @@ import {
   Modal,
   Spinner,
   Text,
-} from '@kiwanoswap/uikit'
+} from '@KiwanoSwap/uikit'
 import { CurrencyLogo } from 'components/Logo'
 import { TransactionErrorContent, TransactionSubmittedContent } from 'components/TransactionConfirmationModal'
 import { useTranslation } from 'contexts/Localization'

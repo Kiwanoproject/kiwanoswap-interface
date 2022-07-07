@@ -1,4 +1,4 @@
-import { Flex, Heading, Skeleton } from '@kiwanoswap/uikit'
+import { Flex, Heading, Skeleton } from '@KiwanoSwap/uikit'
 import getTimePeriods from 'utils/getTimePeriods'
 import Timer from './Timer'
 import useNextEventCountdown from '../../hooks/useNextEventCountdown'

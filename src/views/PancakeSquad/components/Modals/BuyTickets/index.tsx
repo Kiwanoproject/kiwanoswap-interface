@@ -14,7 +14,7 @@ import {
   ModalProps,
   ModalTitle,
   Text,
-} from '@kiwanoswap/uikit'
+} from '@KiwanoSwap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import useTheme from 'hooks/useTheme'
 import { useState } from 'react'

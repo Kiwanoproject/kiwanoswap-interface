@@ -1,4 +1,4 @@
-import { Flex, IconButton, CogIcon, useModal } from '@kiwanoswap/uikit'
+import { Flex, IconButton, CogIcon, useModal } from '@KiwanoSwap/uikit'
 import SettingsModal from './SettingsModal'
 
 type Props = {

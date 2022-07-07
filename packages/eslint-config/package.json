@@ -1,12 +1,12 @@
 {
-  "name": "@kiwanoswap/eslint-config-kiwanoswap",
+  "name": "@KiwanoSwap/eslint-config-KiwanoSwap",
   "version": "1.2.5",
   "description": "Eslint config for KiwanoSwap",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
-  "repository": "https://github.com/kiwanoproject/kiwanoswap-toolkit/tree/master/packages/eslint-config-kiwanoswap",
+  "repository": "https://github.com/kiwanoproject/KiwanoSwap-toolkit/tree/master/packages/eslint-config-KiwanoSwap",
   "license": "MIT",
   "author": "RabbitDoge",
   "private": false,

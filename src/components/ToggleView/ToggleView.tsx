@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { ListViewIcon, CardViewIcon, IconButton } from '@kiwanoswap/uikit'
+import { ListViewIcon, CardViewIcon, IconButton } from '@KiwanoSwap/uikit'
 import { ViewMode } from 'state/user/actions'
 
 interface ToggleViewProps {

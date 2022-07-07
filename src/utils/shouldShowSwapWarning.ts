@@ -1,4 +1,4 @@
-import { Token } from '@kiwanoswap/sdk'
+import { Token } from '@KiwanoSwap/sdk'
 import SwapWarningTokens from 'config/constants/swapWarningTokens'
 
 const swapWarningTokens = Object.values(SwapWarningTokens)

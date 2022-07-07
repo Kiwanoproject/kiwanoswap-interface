@@ -1,4 +1,4 @@
-import { Box, Flex } from '@kiwanoswap/uikit'
+import { Box, Flex } from '@KiwanoSwap/uikit'
 import styled from 'styled-components'
 
 export const Wrapper = styled(Flex)`

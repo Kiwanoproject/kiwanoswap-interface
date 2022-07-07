@@ -1,9 +1,9 @@
 import { InjectedConnector } from '@web3-react/injected-connector'
 import { WalletConnectConnector } from '@web3-react/walletconnect-connector'
 import { AbstractConnector } from '@web3-react/abstract-connector'
-import { ChainId } from '@kiwanoswap/sdk'
+import { ChainId } from '@KiwanoSwap/sdk'
 import { BscConnector } from '@binance-chain/bsc-connector'
-import { ConnectorNames } from '@kiwanoswap/uikit'
+import { ConnectorNames } from '@KiwanoSwap/uikit'
 import { hexlify } from '@ethersproject/bytes'
 import { toUtf8Bytes } from '@ethersproject/strings'
 import { Web3Provider } from '@ethersproject/providers'
@@ -37,7 +37,7 @@ export const connectorsByName = {
     return new WalletLinkConnector({
       url: rpcUrl,
       appName: 'KiwanoSwap',
-      appLogoUrl: 'https://kiwanoswap.io/logo.png',
+      appLogoUrl: 'https://KiwanoSwap.io/logo.png',
       supportedChainIds: [ChainId.MAINNET, ChainId.TESTNET],
     })
   },

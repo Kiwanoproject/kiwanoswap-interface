@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import { Tag, Flex, Heading, Skeleton } from '@kiwanoswap/uikit'
-import { Token } from '@kiwanoswap/sdk'
+import { Tag, Flex, Heading, Skeleton } from '@KiwanoSwap/uikit'
+import { Token } from '@KiwanoSwap/sdk'
 import { FarmAuctionTag, CoreTag } from 'components/Tags'
 import { TokenPairImage } from 'components/TokenImage'
 

@@ -1,4 +1,4 @@
-import { Price } from '@kiwanoswap/sdk'
+import { Price } from '@KiwanoSwap/sdk'
 import { Flex, Text } from '@kiwanoswap/uikit'
 import { multiplyPriceByAmount } from 'utils/prices'
 import { useTranslation } from 'contexts/Localization'

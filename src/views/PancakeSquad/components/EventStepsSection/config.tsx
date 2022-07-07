@@ -1,4 +1,4 @@
-import { Button } from '@kiwanoswap/uikit'
+import { Button } from '@KiwanoSwap/uikit'
 import { SaleStatusEnum, UserStatusEnum } from 'views/PancakeSquad/types'
 import ActivateProfileButton from '../Buttons/ActivateProfile'
 import BuyTicketsButtons from '../Buttons/BuyTickets'

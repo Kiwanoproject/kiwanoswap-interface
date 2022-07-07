@@ -1,5 +1,5 @@
 import { memo, ReactNode } from 'react'
-import { Message, MessageText, Box, Flex, useMatchBreakpoints } from '@kiwanoswap/uikit'
+import { Message, MessageText, Box, Flex, useMatchBreakpoints } from '@KiwanoSwap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import Trans from 'components/Trans'
 import { VaultPosition } from 'utils/cakePool'

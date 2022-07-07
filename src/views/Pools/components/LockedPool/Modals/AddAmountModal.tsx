@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react'
-import { Modal, Box, MessageText, Message, Checkbox, Flex, Text } from '@kiwanoswap/uikit'
+import { Modal, Box, MessageText, Message, Checkbox, Flex, Text } from '@KiwanoSwap/uikit'
 import _noop from 'lodash/noop'
 import { useTranslation } from 'contexts/Localization'
 import BigNumber from 'bignumber.js'

@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, ETHER, Token, Trade } from '@kiwanoswap/sdk'
+import { Currency, CurrencyAmount, ETHER, Token, Trade } from '@KiwanoSwap/sdk'
 import { ParsedUrlQuery } from 'querystring'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'

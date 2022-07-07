@@ -1,4 +1,4 @@
-import { CurrencyAmount, JSBI } from '@kiwanoswap/sdk'
+import { CurrencyAmount, JSBI } from '@KiwanoSwap/sdk'
 import { maxAmountSpend } from './maxAmountSpend'
 
 describe('maxAmountSpend', () => {

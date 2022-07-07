@@ -1,6 +1,6 @@
 import { CSSProperties, MutableRefObject, useCallback, useMemo } from 'react'
-import { Currency, CurrencyAmount, currencyEquals, ETHER, Token } from '@kiwanoswap/sdk'
-import { Text } from '@kiwanoswap/uikit'
+import { Currency, CurrencyAmount, currencyEquals, ETHER, Token } from '@KiwanoSwap/sdk'
+import { Text } from '@KiwanoSwap/uikit'
 import styled from 'styled-components'
 import { FixedSizeList } from 'react-window'
 import { wrappedCurrency } from 'utils/wrappedCurrency'

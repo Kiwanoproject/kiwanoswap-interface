@@ -1,7 +1,7 @@
 /* eslint-disable no-restricted-syntax */
 import { KeyboardEvent, RefObject, useCallback, useMemo, useRef, useState, useEffect } from 'react'
-import { Currency, ETHER, Token } from '@kiwanoswap/sdk'
-import { Text, Input, Box } from '@kiwanoswap/uikit'
+import { Currency, ETHER, Token } from '@KiwanoSwap/sdk'
+import { Text, Input, Box } from '@KiwanoSwap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { FixedSizeList } from 'react-window'
 import { useAudioModeManager } from 'state/user/hooks'

@@ -1,4 +1,4 @@
-import { Text, TextProps } from '@kiwanoswap/uikit'
+import { Text, TextProps } from '@KiwanoSwap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { TranslatableText as AchievementTitleType } from 'config/constants/types'
 

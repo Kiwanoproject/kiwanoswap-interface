@@ -1,4 +1,4 @@
-import { Button } from '@kiwanoswap/uikit'
+import { Button } from '@KiwanoSwap/uikit'
 
 import { useTranslation } from 'contexts/Localization'
 

@@ -1,4 +1,4 @@
-import { Flex, Skeleton, useModal } from '@kiwanoswap/uikit'
+import { Flex, Skeleton, useModal } from '@KiwanoSwap/uikit'
 import BigNumber from 'bignumber.js'
 import { DeserializedPool } from 'state/types'
 import { usePoolsWithVault } from 'state/pools/hooks'

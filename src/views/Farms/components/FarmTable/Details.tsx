@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { ChevronDownIcon, useMatchBreakpoints } from '@kiwanoswap/uikit'
+import { ChevronDownIcon, useMatchBreakpoints } from '@KiwanoSwap/uikit'
 import { useTranslation } from 'contexts/Localization'
 
 interface DetailsProps {

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import BigNumber from 'bignumber.js'
 import styled from 'styled-components'
-import { Card, Flex, Text, Skeleton } from '@kiwanoswap/uikit'
+import { Card, Flex, Text, Skeleton } from '@KiwanoSwap/uikit'
 import { getBscScanLink } from 'utils'
 import { useTranslation } from 'contexts/Localization'
 import ExpandableSectionButton from 'components/ExpandableSectionButton'

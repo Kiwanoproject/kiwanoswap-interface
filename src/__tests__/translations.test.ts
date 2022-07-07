@@ -53,7 +53,7 @@ describe('Check translations available', () => {
   }
 
   throughDirectory('src/')
-  throughDirectory('node_modules/@kiwanoswap/uikit', true)
+  throughDirectory('node_modules/@KiwanoSwap/uikit', true)
 
   let match
 

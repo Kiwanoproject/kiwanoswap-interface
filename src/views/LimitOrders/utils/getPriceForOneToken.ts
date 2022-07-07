@@ -1,4 +1,4 @@
-import { CurrencyAmount, Price } from '@kiwanoswap/sdk'
+import { CurrencyAmount, Price } from '@KiwanoSwap/sdk'
 
 /**
  * Given certain amount if input and output tokens

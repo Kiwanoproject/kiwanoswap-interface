@@ -1,4 +1,4 @@
-import { ChainId } from '@kiwanoswap/sdk'
+import { ChainId } from '@KiwanoSwap/sdk'
 import { TokenList } from '@uniswap/token-lists'
 import { useMemo } from 'react'
 import uniqBy from 'lodash/uniqBy'

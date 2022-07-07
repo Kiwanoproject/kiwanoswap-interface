@@ -1,4 +1,4 @@
-import { Text } from '@kiwanoswap/uikit'
+import { Text } from '@KiwanoSwap/uikit'
 import { ContextApi } from 'contexts/Localization/types'
 import Link from 'next/link'
 
@@ -35,7 +35,7 @@ const eventDescriptionConfigBuilder = ({ t }: EventDescriptionType) => ({
     },
   ],
   primaryButton: {
-    to: 'https://docs.kiwanoswap.io/',
+    to: 'https://docs.KiwanoSwap.io/',
     text: t('View Documentation'),
     external: true,
     isDisplayed: false,

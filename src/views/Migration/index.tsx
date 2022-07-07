@@ -1,7 +1,7 @@
 import React, { memo, useState, useRef, useMemo } from 'react'
 import { useRouter } from 'next/router'
 import { useWeb3React } from '@web3-react/core'
-import { Heading, Text, Button, ArrowForwardIcon, Link } from '@kiwanoswap/uikit'
+import { Heading, Text, Button, ArrowForwardIcon, Link } from '@KiwanoSwap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { usePollFarmsV1WithUserData } from 'state/farmsV1/hooks'
 import { VaultKey } from 'state/types'
@@ -74,7 +74,7 @@ const MigrationPage: React.FC = () => {
         <Heading scale="lg" color="text">
           {t('Migrate your stakings to the new MasterChef contract.')}
         </Heading>
-        <Link href="https://docs.kiwanoswap.io/code/migration/migrate-your-stakings" external>
+        <Link href="https://docs.KiwanoSwap.io/code/migration/migrate-your-stakings" external>
           <Button p="0" variant="text">
             <Text color="primary" bold fontSize="16px" mr="4px">
               {t('Learn more')}

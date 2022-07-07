@@ -1,4 +1,4 @@
-import { Heading, TextProps } from '@kiwanoswap/uikit'
+import { Heading, TextProps } from '@KiwanoSwap/uikit'
 import useTheme from 'hooks/useTheme'
 
 interface HeadingProps extends TextProps {

@@ -4,7 +4,7 @@ import { PageMeta } from './types'
 export const DEFAULT_META: PageMeta = {
   title: 'KiwanoSwap',
   description:
-    'The most popular AMM on BSC by user count! Earn WANO through yield farming or win it in the Lottery, then stake it in Syrup Pools to earn more tokens! Initial Farm Offerings (new token launch model pioneered by KiwanoSwap), NFTs, and more, on a platform you can trust.',
+    'Trade, earn, and win crypto on KiwanoSwap brought to you by The Kiwano Project.',
   image: '//images/hero.png',
 }
 

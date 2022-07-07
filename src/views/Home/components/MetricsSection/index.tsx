@@ -1,4 +1,4 @@
-import { Heading, Flex, Text, Skeleton, ChartIcon, CommunityIcon, SwapIcon } from '@kiwanoswap/uikit'
+import { Heading, Flex, Text, Skeleton, ChartIcon, CommunityIcon, SwapIcon } from '@KiwanoSwap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import useTheme from 'hooks/useTheme'
 import { formatLocalisedCompactNumber } from 'utils/formatBalance'

@@ -2033,9 +2033,9 @@
     "@json-rpc-tools/types" "^1.7.6"
     "@pedrouid/environment" "^1.0.1"
 
-"@kiwanoswap/sdk@^2.7.5":
+"@KiwanoSwap/sdk@^2.7.5":
   version "2.7.5"
-  resolved "https://registry.npmjs.org/@kiwanoswap/sdk/-/sdk-2.7.5.tgz"
+  resolved "https://registry.npmjs.org/@KiwanoSwap/sdk/-/sdk-2.7.5.tgz"
   integrity sha512-HKv2EdWt4abXxd6lUq8cwc8VruHhwE6kBg8v3fUpBx2qJxPCE5H/ORFZqxWWaxNfmTIwHF+WkPsAEUtZyPlmRA==
   dependencies:
     big.js "^5.2.2"

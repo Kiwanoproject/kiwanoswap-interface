@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { JSBI, Pair, Percent } from '@kiwanoswap/sdk'
+import { JSBI, Pair, Percent } from '@KiwanoSwap/sdk'
 import {
   Button,
   Text,
@@ -10,7 +10,7 @@ import {
   Flex,
   CardProps,
   AddIcon,
-} from '@kiwanoswap/uikit'
+} from '@KiwanoSwap/uikit'
 import styled from 'styled-components'
 import { NextLinkFromReactRouter } from 'components/NextLink'
 import { useTranslation } from 'contexts/Localization'

@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, Progress, ProgressBar } from '@kiwanoswap/uikit'
+import { Box, Flex, Heading, Progress, ProgressBar } from '@KiwanoSwap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import styled from 'styled-components'
 import { PublicIfoData } from '../../types'

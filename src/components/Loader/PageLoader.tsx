@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Spinner } from '@kiwanoswap/uikit'
+import { Spinner } from '@KiwanoSwap/uikit'
 import Page from '../Layout/Page'
 
 const Wrapper = styled(Page)`

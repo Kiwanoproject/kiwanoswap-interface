@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Flex, Skeleton, UserMenuItem } from '@kiwanoswap/uikit'
+import { Flex, Skeleton, UserMenuItem } from '@KiwanoSwap/uikit'
 import { useWeb3React } from '@web3-react/core'
 import { useTranslation } from 'contexts/Localization'
 import { nftsBaseUrl } from 'views/Nft/market/constants'

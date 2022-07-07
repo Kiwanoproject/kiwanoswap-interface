@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount, Fraction, Percent } from '@kiwanoswap/sdk'
-import { Button, Text } from '@kiwanoswap/uikit'
+import { Currency, CurrencyAmount, Fraction, Percent } from '@KiwanoSwap/sdk'
+import { Button, Text } from '@KiwanoSwap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { RowBetween, RowFixed } from '../../components/Layout/Row'
 import { CurrencyLogo } from '../../components/Logo'

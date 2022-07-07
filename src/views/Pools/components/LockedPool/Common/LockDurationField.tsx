@@ -1,4 +1,4 @@
-import { Text, Flex, Button, Input, Box } from '@kiwanoswap/uikit'
+import { Text, Flex, Button, Input, Box } from '@KiwanoSwap/uikit'
 import styled from 'styled-components'
 import { useTranslation } from 'contexts/Localization'
 import _toNumber from 'lodash/toNumber'

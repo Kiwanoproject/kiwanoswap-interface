@@ -8,7 +8,7 @@ import {
   IconButton,
   ChevronUpIcon,
   ChevronDownIcon,
-} from '@kiwanoswap/uikit'
+} from '@KiwanoSwap/uikit'
 
 interface CollapsibleCardProps extends CardProps {
   initialOpenState?: boolean

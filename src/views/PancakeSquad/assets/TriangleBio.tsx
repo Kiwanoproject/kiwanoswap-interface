@@ -1,4 +1,4 @@
-import { Svg, SvgProps } from '@kiwanoswap/uikit'
+import { Svg, SvgProps } from '@KiwanoSwap/uikit'
 import * as React from 'react'
 
 const Icon: React.FC<SvgProps & { isDark: boolean }> = ({ isDark, ...props }) => {

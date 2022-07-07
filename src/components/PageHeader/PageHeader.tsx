@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Box } from '@kiwanoswap/uikit'
+import { Box } from '@KiwanoSwap/uikit'
 import Container from '../Layout/Container'
 import { PageHeaderProps } from './types'
 

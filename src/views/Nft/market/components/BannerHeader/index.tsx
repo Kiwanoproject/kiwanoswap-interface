@@ -1,5 +1,5 @@
 import { ReactNode } from 'react'
-import { Flex, Box, FlexProps } from '@kiwanoswap/uikit'
+import { Flex, Box, FlexProps } from '@KiwanoSwap/uikit'
 import Image from 'next/image'
 import StyledBannerImageWrapper from './BannerImage'
 

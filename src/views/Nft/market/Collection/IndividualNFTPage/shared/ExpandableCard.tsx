@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import styled, { keyframes, css } from 'styled-components'
-import { Grid, Text, Card, Box, ChevronUpIcon, ChevronDownIcon, IconButton } from '@kiwanoswap/uikit'
+import { Grid, Text, Card, Box, ChevronUpIcon, ChevronDownIcon, IconButton } from '@KiwanoSwap/uikit'
 import useTheme from 'hooks/useTheme'
 
 const expandAnimation = keyframes`

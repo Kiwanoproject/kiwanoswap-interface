@@ -1,4 +1,4 @@
-import { AutoRenewIcon, Button } from '@kiwanoswap/uikit'
+import { AutoRenewIcon, Button } from '@KiwanoSwap/uikit'
 import { PoolIds } from 'config/constants/types'
 import { WalletIfoData } from 'views/Ifos/types'
 import { useTranslation } from 'contexts/Localization'

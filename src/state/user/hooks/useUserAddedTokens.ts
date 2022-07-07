@@ -1,4 +1,4 @@
-import { ChainId, Token } from '@kiwanoswap/sdk'
+import { ChainId, Token } from '@KiwanoSwap/sdk'
 import { createSelector } from '@reduxjs/toolkit'
 import { CHAIN_ID } from 'config/constants/networks'
 import { useSelector } from 'react-redux'

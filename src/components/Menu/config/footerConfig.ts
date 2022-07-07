@@ -1,4 +1,4 @@
-import { FooterLinkType } from '@kiwanoswap/uikit'
+import { FooterLinkType } from '@KiwanoSwap/uikit'
 import { ContextApi } from 'contexts/Localization/types'
 
 export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
@@ -7,12 +7,12 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('Contact'),
-        href: 'https://docs.kiwanoswap.io/contact-us',
+        href: 'https://docs.KiwanoSwap.io/contact-us',
         isHighlighted: true,
       },
       {
         label: t('Blog'),
-        href: 'https://medium.com/pancakeswap',
+        href: 'https://blog.kiwanoproject.com',
       },
     ],
   },
@@ -21,7 +21,7 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('Customer Support'),
-        href: 'https://docs.kiwanoswap.io/contact-us/customer-support',
+        href: 'https://docs.KiwanoSwap.io/contact-us/customer-support',
       },
     ],
   },
@@ -30,7 +30,7 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('Audits'),
-        href: 'https://docs.kiwanoswap.io/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited',
+        href: 'https://docs.KiwanoSwap.io/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited',
       },
     ],
   },

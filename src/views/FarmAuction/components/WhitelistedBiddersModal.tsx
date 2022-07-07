@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import styled from 'styled-components'
-import { Modal, Box, Text, Flex, Input, OpenNewIcon, useMatchBreakpoints, Spinner } from '@kiwanoswap/uikit'
+import { Modal, Box, Text, Flex, Input, OpenNewIcon, useMatchBreakpoints, Spinner } from '@KiwanoSwap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import useTheme from 'hooks/useTheme'
 import { FarmAuctionBidderConfig } from 'config/constants/types'

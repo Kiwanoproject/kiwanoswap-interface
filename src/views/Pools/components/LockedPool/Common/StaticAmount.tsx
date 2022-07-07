@@ -1,4 +1,4 @@
-import { Text, Flex, Image, Box } from '@kiwanoswap/uikit'
+import { Text, Flex, Image, Box } from '@KiwanoSwap/uikit'
 import { BalanceWithLoading } from 'components/Balance'
 import Divider from 'components/Divider'
 import { useTranslation } from 'contexts/Localization'

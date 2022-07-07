@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Text, Heading, Card, CardHeader, CardBody, Flex } from '@kiwanoswap/uikit'
+import { Text, Heading, Card, CardHeader, CardBody, Flex } from '@KiwanoSwap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import useApproveConfirmTransaction from 'hooks/useApproveConfirmTransaction'
 import { useCake, useFarmAuctionContract } from 'hooks/useContract'

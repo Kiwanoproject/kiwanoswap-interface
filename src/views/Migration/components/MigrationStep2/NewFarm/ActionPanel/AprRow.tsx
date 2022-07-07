@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Flex, Text } from '@kiwanoswap/uikit'
+import { Flex, Text } from '@KiwanoSwap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import Apr, { AprProps } from 'views/Farms/components/FarmTable/Apr'
 

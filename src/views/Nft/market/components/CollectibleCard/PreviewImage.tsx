@@ -1,4 +1,4 @@
-import { BackgroundImage, BoxProps } from '@kiwanoswap/uikit'
+import { BackgroundImage, BoxProps } from '@KiwanoSwap/uikit'
 import PlaceholderImage from './PlaceholderImage'
 
 interface PreviewImageProps extends BoxProps {

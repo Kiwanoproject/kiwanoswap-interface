@@ -1,4 +1,4 @@
-import { Text } from '@kiwanoswap/uikit'
+import { Text } from '@KiwanoSwap/uikit'
 import { ContextApi } from 'contexts/Localization/types'
 
 type FAQsType = {

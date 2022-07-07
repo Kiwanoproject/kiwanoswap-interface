@@ -11,7 +11,7 @@ import {
   TwitterIcon,
   Link,
   TelegramIcon,
-} from '@kiwanoswap/uikit'
+} from '@KiwanoSwap/uikit'
 import tokens from 'config/constants/tokens'
 import { useTranslation } from 'contexts/Localization'
 import { PublicIfoData } from 'views/Ifos/types'

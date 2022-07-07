@@ -12,7 +12,7 @@ const ItemsMock: DropdownMenuItems[] = [
   },
   {
     label: "LP Migration",
-    href: "https://v1exchange.kiwanoswap.io/#/migrate",
+    href: "https://v1exchange.KiwanoSwap.io/#/migrate",
     type: DropdownMenuItemType.EXTERNAL_LINK,
   },
   {

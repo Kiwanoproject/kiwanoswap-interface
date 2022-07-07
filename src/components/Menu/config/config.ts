@@ -10,7 +10,7 @@ import {
   NftIcon,
   NftFillIcon, */
   MoreIcon,
-} from '@kiwanoswap/uikit'
+} from '@KiwanoSwap/uikit'
 import { ContextApi } from 'contexts/Localization/types'
 // import { nftsBaseUrl } from 'views/Nft/market/constants'
 // import { perpLangMap } from 'utils/getPerpetualLanguageCode'
@@ -47,12 +47,12 @@ const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType
       },
       {
         label: t('Blog'),
-        href: 'https://medium.com/pancakeswap',
+        href: 'https://blog.kiwanoproject.com',
         type: DropdownMenuItemType.EXTERNAL_LINK,
       },
       {
         label: t('Docs'),
-        href: 'https://docs.kiwanoswap.io',
+        href: 'https://docs.KiwanoSwap.io',
         type: DropdownMenuItemType.EXTERNAL_LINK,
       },
     ],

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Text, Box, Flex, Button } from '@kiwanoswap/uikit'
+import { Text, Box, Flex, Button } from '@KiwanoSwap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { LotteryStatus } from 'config/constants/types'
 import { useGetUserLotteriesGraphData } from 'state/lottery/hooks'

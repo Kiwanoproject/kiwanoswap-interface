@@ -1,4 +1,4 @@
-import { ChainId, Token } from '@kiwanoswap/sdk'
+import { ChainId, Token } from '@KiwanoSwap/sdk'
 import { serializeToken } from 'state/user/hooks/helpers'
 import { CHAIN_ID } from './networks'
 import { SerializedToken } from './types'

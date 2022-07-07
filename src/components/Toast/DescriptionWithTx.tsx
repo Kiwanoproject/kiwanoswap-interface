@@ -1,4 +1,4 @@
-import { Link, Text } from '@kiwanoswap/uikit'
+import { Link, Text } from '@KiwanoSwap/uikit'
 import { getBscScanLink } from 'utils'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { useTranslation } from 'contexts/Localization'

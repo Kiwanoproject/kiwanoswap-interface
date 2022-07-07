@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { Text, Flex, AccountIcon, TeamBattleIcon, Box, useTooltip, LinkExternal } from '@kiwanoswap/uikit'
+import { Text, Flex, AccountIcon, TeamBattleIcon, Box, useTooltip, LinkExternal } from '@KiwanoSwap/uikit'
 import { useWeb3React } from '@web3-react/core'
 import { useTranslation } from 'contexts/Localization'
 

@@ -655,7 +655,7 @@ it("renders ConnectModal correctly", () => {
             </p>
             <a
               class="c22"
-              href="https://docs.kiwanoswap.io/get-started/connection-guide"
+              href="https://docs.KiwanoSwap.io/get-started/connection-guide"
               rel="noreferrer noopener"
               scale="md"
               target="_blank"

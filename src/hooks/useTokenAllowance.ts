@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from '@kiwanoswap/sdk'
+import { Token, TokenAmount } from '@KiwanoSwap/sdk'
 import { useMemo } from 'react'
 
 import { useTokenContract } from './useContract'

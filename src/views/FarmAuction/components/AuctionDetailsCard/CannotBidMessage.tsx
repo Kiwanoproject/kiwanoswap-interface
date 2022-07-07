@@ -1,4 +1,4 @@
-import { Text, Flex, HelpIcon, useTooltip } from '@kiwanoswap/uikit'
+import { Text, Flex, HelpIcon, useTooltip } from '@KiwanoSwap/uikit'
 import { useTranslation } from 'contexts/Localization'
 
 const CannotBidMessage: React.FC = () => {

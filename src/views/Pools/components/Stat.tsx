@@ -1,4 +1,4 @@
-import { Token } from '@kiwanoswap/sdk'
+import { Token } from '@KiwanoSwap/sdk'
 import Balance from 'components/Balance'
 import { Flex, Skeleton, Text, TooltipText, useTooltip } from '@kiwanoswap/uikit'
 import BigNumber from 'bignumber.js'

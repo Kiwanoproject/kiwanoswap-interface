@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from '@kiwanoswap/sdk'
+import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from '@KiwanoSwap/sdk'
 import { computeTradePriceBreakdown } from 'utils/prices'
 
 describe('prices', () => {

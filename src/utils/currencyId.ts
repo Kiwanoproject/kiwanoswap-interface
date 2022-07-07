@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from '@kiwanoswap/sdk'
+import { Currency, ETHER, Token } from '@KiwanoSwap/sdk'
 
 export function currencyId(currency: Currency): string {
   if (currency === ETHER) return 'BNB'

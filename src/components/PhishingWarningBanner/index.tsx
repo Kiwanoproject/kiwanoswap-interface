@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Text, Flex, Box, CloseIcon, IconButton, useMatchBreakpoints } from '@kiwanoswap/uikit'
+import { Text, Flex, Box, CloseIcon, IconButton, useMatchBreakpoints } from '@KiwanoSwap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { usePhishingBannerManager } from 'state/user/hooks'
 
@@ -43,8 +43,8 @@ const PhishingWarningBanner: React.FC = () => {
   const { t } = useTranslation()
   const [, hideBanner] = usePhishingBannerManager()
   const { isMobile, isMd } = useMatchBreakpoints()
-  const warningText = t("please make sure you're visiting https://kiwanoswap.io - check the URL carefully.")
-  const warningTextAsParts = warningText.split(/(https:\/\/kiwanoswap.io)/g)
+  const warningText = t("please make sure you're visiting https://KiwanoSwap.io - check the URL carefully.")
+  const warningTextAsParts = warningText.split(/(https:\/\/KiwanoSwap.io)/g)
   const warningTextComponent = (
     <>
       <Text as="span" color="warning" small bold textTransform="uppercase">

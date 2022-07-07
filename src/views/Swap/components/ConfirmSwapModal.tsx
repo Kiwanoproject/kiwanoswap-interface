@@ -1,5 +1,5 @@
 import { useCallback, useMemo } from 'react'
-import { currencyEquals, Trade } from '@kiwanoswap/sdk'
+import { currencyEquals, Trade } from '@KiwanoSwap/sdk'
 import { InjectedModalProps } from '@kiwanoswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import TransactionConfirmationModal, {

@@ -1,6 +1,6 @@
 import { Flex, Text, Button, Heading, useModal, Skeleton } from '@kiwanoswap/uikit'
 import BigNumber from 'bignumber.js'
-import { Token } from '@kiwanoswap/sdk'
+import { Token } from '@KiwanoSwap/sdk'
 import { useTranslation } from 'contexts/Localization'
 import { getFullDisplayBalance, getBalanceNumber, formatNumber } from 'utils/formatBalance'
 import Balance from 'components/Balance'

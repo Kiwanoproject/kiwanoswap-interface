@@ -1,5 +1,5 @@
 import { Fragment, memo } from 'react'
-import { Trade } from '@kiwanoswap/sdk'
+import { Trade } from '@KiwanoSwap/sdk'
 import { Text, Flex, ChevronRightIcon } from '@kiwanoswap/uikit'
 import { unwrappedToken } from 'utils/wrappedCurrency'
 

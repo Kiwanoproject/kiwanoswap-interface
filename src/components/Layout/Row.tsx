@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Box } from '@kiwanoswap/uikit'
+import { Box } from '@KiwanoSwap/uikit'
 
 const Row = styled(Box)<{
   width?: string

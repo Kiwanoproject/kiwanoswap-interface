@@ -1,7 +1,7 @@
 {
-  "name": "@kiwanoswap/uikit",
+  "name": "@KiwanoSwap/uikit",
   "version": "0.64.3",
-  "description": "Set of UI components for kiwanoswap projects",
+  "description": "Set of UI components for KiwanoSwap projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
@@ -9,7 +9,7 @@
     "dist"
   ],
   "sideEffects": false,
-  "repository": "https://github.com/Kiwanoproject/kiwanoswap-toolkit/tree/master/packages/kiwanoswap-uikit",
+  "repository": "https://github.com/Kiwanoproject/KiwanoSwap-toolkit/tree/master/packages/KiwanoSwap-uikit",
   "license": "MIT",
   "scripts": {
     "start": "yarn storybook",

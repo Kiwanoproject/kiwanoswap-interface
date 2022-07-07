@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react'
-import { CurrencyAmount, Token, Trade } from '@kiwanoswap/sdk'
-import { Button, Box, Flex, useModal, useMatchBreakpoints, BottomDrawer, Link } from '@kiwanoswap/uikit'
+import { CurrencyAmount, Token, Trade } from '@KiwanoSwap/sdk'
+import { Button, Box, Flex, useModal, useMatchBreakpoints, BottomDrawer, Link } from '@KiwanoSwap/uikit'
 
 import { useTranslation } from 'contexts/Localization'
 import { AutoColumn } from 'components/Layout/Column'

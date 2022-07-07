@@ -1,4 +1,4 @@
-import { Grid, Text, Flex } from '@kiwanoswap/uikit'
+import { Grid, Text, Flex } from '@KiwanoSwap/uikit'
 import { NftToken } from 'state/nftMarket/types'
 import { useTranslation } from 'contexts/Localization'
 import { CollectibleLinkCard } from '../../components/CollectibleCard'

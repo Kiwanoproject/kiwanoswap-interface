@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import styled from 'styled-components'
-import { Flex } from '@kiwanoswap/uikit'
+import { Flex } from '@KiwanoSwap/uikit'
 import sum from 'lodash/sum'
 import Page from 'components/Layout/Page'
 import { useGetCollection } from 'state/nftMarket/hooks'

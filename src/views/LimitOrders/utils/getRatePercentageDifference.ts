@@ -1,4 +1,4 @@
-import { Percent, Price } from '@kiwanoswap/sdk'
+import { Percent, Price } from '@KiwanoSwap/sdk'
 
 const getRatePercentageDifference = (currentMarketRate: Price, price: Price) => {
   if (currentMarketRate && price) {

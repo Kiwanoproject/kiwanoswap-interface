@@ -1,4 +1,4 @@
-import { Token } from '@kiwanoswap/sdk'
+import { Token } from '@KiwanoSwap/sdk'
 import tokens from 'config/constants/tokens'
 
 const { bondly, safemoon, itam, ccar, bttold } = tokens

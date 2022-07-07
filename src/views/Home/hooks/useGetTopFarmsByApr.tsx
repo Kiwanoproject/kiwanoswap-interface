@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { ChainId } from '@kiwanoswap/sdk'
+import { ChainId } from '@KiwanoSwap/sdk'
 import { useFarms, usePriceCakeBusd } from 'state/farms/hooks'
 import { useAppDispatch } from 'state'
 import farmsConfig from 'config/constants/farms'

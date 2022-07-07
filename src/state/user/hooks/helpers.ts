@@ -1,4 +1,4 @@
-import { Token } from '@kiwanoswap/sdk'
+import { Token } from '@KiwanoSwap/sdk'
 import { SerializedToken } from 'config/constants/types'
 import { WrappedTokenInfo } from 'state/types'
 

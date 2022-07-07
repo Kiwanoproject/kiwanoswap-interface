@@ -1,4 +1,4 @@
-import { Flex, Text } from '@kiwanoswap/uikit'
+import { Flex, Text } from '@KiwanoSwap/uikit'
 import styled from 'styled-components'
 
 export const StyledFaqSection = styled(Flex)`

@@ -1,5 +1,5 @@
 import { Contract } from '@ethersproject/contracts'
-import { JSBI, Percent, Router, SwapParameters, Trade, TradeType } from '@kiwanoswap/sdk'
+import { JSBI, Percent, Router, SwapParameters, Trade, TradeType } from '@KiwanoSwap/sdk'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { useMemo } from 'react'
 import { BIPS_BASE, INITIAL_ALLOWED_SLIPPAGE } from '../config/constants'

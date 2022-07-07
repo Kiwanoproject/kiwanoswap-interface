@@ -1,4 +1,4 @@
-import { Heading, Flex, Text, useMatchBreakpoints } from '@kiwanoswap/uikit'
+import { Heading, Flex, Text, useMatchBreakpoints } from '@KiwanoSwap/uikit'
 
 const StatCardContent: React.FC<{ headingText: string; bodyText: string; highlightColor: string }> = ({
   headingText,

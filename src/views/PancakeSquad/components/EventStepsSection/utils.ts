@@ -1,4 +1,4 @@
-import { EventStatus, StepStatus } from '@kiwanoswap/uikit'
+import { EventStatus, StepStatus } from '@KiwanoSwap/uikit'
 import { SaleStatusEnum } from 'views/PancakeSquad/types'
 import { getEventStepStatus, getEventStepStatusType } from 'views/PancakeSquad/utils'
 

@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import styled from 'styled-components'
-import { Trade, TradeType } from '@kiwanoswap/sdk'
+import { Trade, TradeType } from '@KiwanoSwap/sdk'
 import { Button, Text, AutoRenewIcon } from '@kiwanoswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { Field } from 'state/swap/actions'
