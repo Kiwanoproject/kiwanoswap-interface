@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Flex, HelpIcon, Text, useTooltip } from '@KiwanoSwap/uikit'
+import { Flex, HelpIcon, Text, useTooltip } from '@kiwanoswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import BigNumber from 'bignumber.js'
 

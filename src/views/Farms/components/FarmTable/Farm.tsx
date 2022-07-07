@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { useFarmUser } from 'state/farms/hooks'
 import { useTranslation } from 'contexts/Localization'
-import { Text } from '@KiwanoSwap/uikit'
+import { Text } from '@kiwanoswap/uikit'
 import { Token } from '@KiwanoSwap/sdk'
 import { getBalanceNumber } from 'utils/formatBalance'
 import { TokenPairImage } from 'components/TokenImage'

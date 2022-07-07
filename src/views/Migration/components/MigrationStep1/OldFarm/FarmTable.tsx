@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { useTranslation } from 'contexts/Localization'
-import { useTable, ColumnType, Flex, Spinner } from '@KiwanoSwap/uikit'
+import { useTable, ColumnType, Flex, Spinner } from '@kiwanoswap/uikit'
 import Row, { RowProps } from './FarmRow'
 import TableHeader from '../../MigrationTable/TableHeader'
 import EmptyText from '../../MigrationTable/EmptyText'

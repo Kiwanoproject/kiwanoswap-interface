@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Token, Currency } from '@KiwanoSwap/sdk'
-import { Button, Text, ErrorIcon, Flex, Message, Checkbox, Link, Tag, Grid } from '@KiwanoSwap/uikit'
+import { Button, Text, ErrorIcon, Flex, Message, Checkbox, Link, Tag, Grid } from '@kiwanoswap/uikit'
 import { AutoColumn } from 'components/Layout/Column'
 import { useAddUserToken } from 'state/user/hooks'
 import { getBscScanLink } from 'utils'

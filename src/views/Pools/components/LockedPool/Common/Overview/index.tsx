@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { Box, Text, Flex, MessageText, Message } from '@KiwanoSwap/uikit'
+import { Box, Text, Flex, MessageText, Message } from '@kiwanoswap/uikit'
 
 import { LightGreyCard } from 'components/Card'
 import { addSeconds } from 'date-fns'

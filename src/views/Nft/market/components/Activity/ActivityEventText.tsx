@@ -1,4 +1,4 @@
-import { Text, TextProps } from '@KiwanoSwap/uikit'
+import { Text, TextProps } from '@kiwanoswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { MarketEvent } from '../../../../../state/nftMarket/types'
 

@@ -1,4 +1,4 @@
-import { Card, Link } from '@KiwanoSwap/uikit'
+import { Card, Link } from '@kiwanoswap/uikit'
 import styled from 'styled-components'
 
 export const StyledCard = styled(Card)`

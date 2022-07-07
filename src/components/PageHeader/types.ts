@@ -1,4 +1,4 @@
-import { BoxProps } from '@KiwanoSwap/uikit'
+import { BoxProps } from '@kiwanoswap/uikit'
 
 export interface PageHeaderProps extends BoxProps {
   background?: string

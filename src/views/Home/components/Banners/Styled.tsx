@@ -1,4 +1,4 @@
-import { Flex, Heading } from '@KiwanoSwap/uikit'
+import { Flex, Heading } from '@kiwanoswap/uikit'
 import styled from 'styled-components'
 
 export const StyledSubheading = styled(Heading)`

@@ -1,4 +1,4 @@
-import { Text } from '@KiwanoSwap/uikit'
+import { Text } from '@kiwanoswap/uikit'
 import getTimePeriods from 'utils/getTimePeriods'
 import { useTranslation } from 'contexts/Localization'
 

@@ -1,4 +1,4 @@
-import { appearAnimation, useMatchBreakpoints } from '@KiwanoSwap/uikit'
+import { appearAnimation, useMatchBreakpoints } from '@kiwanoswap/uikit'
 import { useWeb3React } from '@web3-react/core'
 import { useLayoutEffect, useState } from 'react'
 import styled from 'styled-components'

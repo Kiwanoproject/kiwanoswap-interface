@@ -10,7 +10,7 @@ import {
   NftIcon,
   NftFillIcon, */
   MoreIcon,
-} from '@KiwanoSwap/uikit'
+} from '@kiwanoswap/uikit'
 import { ContextApi } from 'contexts/Localization/types'
 // import { nftsBaseUrl } from 'views/Nft/market/constants'
 // import { perpLangMap } from 'utils/getPerpetualLanguageCode'

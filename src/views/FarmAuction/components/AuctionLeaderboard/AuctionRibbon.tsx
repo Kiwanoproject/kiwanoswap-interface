@@ -1,4 +1,4 @@
-import { Text } from '@KiwanoSwap/uikit'
+import { Text } from '@kiwanoswap/uikit'
 import { Auction, AuctionStatus } from 'config/constants/types'
 import { useTranslation } from 'contexts/Localization'
 

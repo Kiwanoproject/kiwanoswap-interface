@@ -1,4 +1,4 @@
-import { Box, Flex } from '@KiwanoSwap/uikit'
+import { Box, Flex } from '@kiwanoswap/uikit'
 import styled from 'styled-components'
 import HarvestCard from './HarvestCard'
 import UserDetail from './UserDetail'

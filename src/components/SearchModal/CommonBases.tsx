@@ -1,5 +1,5 @@
 import { ChainId, Currency, currencyEquals, ETHER, Token } from '@KiwanoSwap/sdk'
-import { Text } from '@KiwanoSwap/uikit'
+import { Text } from '@kiwanoswap/uikit'
 import styled from 'styled-components'
 import { useTranslation } from 'contexts/Localization'
 

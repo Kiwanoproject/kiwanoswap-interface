@@ -9,7 +9,7 @@ import {
   useMatchBreakpoints,
   useModal,
   Skeleton,
-} from '@KiwanoSwap/uikit'
+} from '@kiwanoswap/uikit'
 import { NextLinkFromReactRouter } from 'components/NextLink'
 import { Activity, NftToken } from 'state/nftMarket/types'
 import { Price } from '@KiwanoSwap/sdk'

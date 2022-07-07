@@ -1,5 +1,5 @@
 import styled, { keyframes } from 'styled-components'
-import { Box } from '@KiwanoSwap/uikit'
+import { Box } from '@kiwanoswap/uikit'
 
 const floatingAnim = (x: string, y: string) => keyframes`
   from {

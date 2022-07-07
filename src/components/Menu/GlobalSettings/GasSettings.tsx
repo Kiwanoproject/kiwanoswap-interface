@@ -1,4 +1,4 @@
-import { Flex, Button, Text } from '@KiwanoSwap/uikit'
+import { Flex, Button, Text } from '@kiwanoswap/uikit'
 import QuestionHelper from 'components/QuestionHelper'
 import { useTranslation } from 'contexts/Localization'
 import { useGasPriceManager } from 'state/user/hooks'

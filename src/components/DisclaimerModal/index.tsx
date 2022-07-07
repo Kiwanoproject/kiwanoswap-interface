@@ -11,7 +11,7 @@ import {
   ModalTitle,
   Heading,
   Box,
-} from '@KiwanoSwap/uikit'
+} from '@kiwanoswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import styled from 'styled-components'
 

@@ -1,4 +1,4 @@
-import { Progress, ProgressProps } from '@KiwanoSwap/uikit'
+import { Progress, ProgressProps } from '@kiwanoswap/uikit'
 
 interface RoundProgressProps extends ProgressProps {
   lockTimestamp: number

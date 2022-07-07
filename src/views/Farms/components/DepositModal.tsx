@@ -11,7 +11,7 @@ import {
   IconButton,
   Skeleton,
   AutoRenewIcon,
-} from '@KiwanoSwap/uikit'
+} from '@kiwanoswap/uikit'
 import { ModalActions, ModalInput } from 'components/Modal'
 import RoiCalculatorModal from 'components/RoiCalculatorModal'
 import { useTranslation } from 'contexts/Localization'

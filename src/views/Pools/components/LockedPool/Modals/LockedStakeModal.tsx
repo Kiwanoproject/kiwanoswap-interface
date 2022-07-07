@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Modal, Box } from '@KiwanoSwap/uikit'
+import { Modal, Box } from '@kiwanoswap/uikit'
 import useTheme from 'hooks/useTheme'
 import { useBUSDCakeAmount } from 'hooks/useBUSDPrice'
 import { useTranslation } from 'contexts/Localization'

@@ -1,4 +1,4 @@
-import { CheckmarkIcon, Flex, FlexProps, Text } from '@KiwanoSwap/uikit'
+import { CheckmarkIcon, Flex, FlexProps, Text } from '@kiwanoswap/uikit'
 
 type ReadyTextProps = {
   text: string

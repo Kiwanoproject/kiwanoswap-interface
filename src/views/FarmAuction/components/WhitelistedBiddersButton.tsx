@@ -1,4 +1,4 @@
-import { useModal, Button, Skeleton } from '@KiwanoSwap/uikit'
+import { useModal, Button, Skeleton } from '@kiwanoswap/uikit'
 import WhitelistedBiddersModal from './WhitelistedBiddersModal'
 import useWhitelistedAddresses from '../hooks/useWhitelistedAddresses'
 

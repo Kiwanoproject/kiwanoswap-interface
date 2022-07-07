@@ -1,6 +1,6 @@
 import { CSSProperties } from 'react'
 import { Token } from '@KiwanoSwap/sdk'
-import { Button, Text, CheckmarkCircleIcon, useMatchBreakpoints } from '@KiwanoSwap/uikit'
+import { Button, Text, CheckmarkCircleIcon, useMatchBreakpoints } from '@kiwanoswap/uikit'
 import { AutoRow, RowFixed } from 'components/Layout/Row'
 import { AutoColumn } from 'components/Layout/Column'
 import CurrencyLogo from 'components/Logo/CurrencyLogo'

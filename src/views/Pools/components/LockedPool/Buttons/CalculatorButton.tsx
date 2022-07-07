@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { IconButton, CalculateIcon } from '@KiwanoSwap/uikit'
+import { IconButton, CalculateIcon } from '@kiwanoswap/uikit'
 
 import { RoiCalculatorModalContext } from '../Modals/RoiCalculatorModalProvider'
 

@@ -1,4 +1,4 @@
-import { Flex, BinanceIcon, Text, Skeleton } from '@KiwanoSwap/uikit'
+import { Flex, BinanceIcon, Text, Skeleton } from '@kiwanoswap/uikit'
 import { multiplyPriceByAmount } from 'utils/prices'
 
 const ActivityPrice = ({ bnbBusdPrice, price }) => {

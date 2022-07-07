@@ -1,4 +1,4 @@
-import { ButtonMenu, ButtonMenuItem } from '@KiwanoSwap/uikit'
+import { ButtonMenu, ButtonMenuItem } from '@kiwanoswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 
 const HistoryTabMenu = ({ setActiveIndex, activeIndex }) => {

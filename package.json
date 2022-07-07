@@ -52,7 +52,7 @@
     "@gelatonetwork/limit-orders-lib": "^4.1.0",
     "@KiwanoSwap/eslint-config-KiwanoSwap": "^1.2.5",
     "@KiwanoSwap/sdk": "^2.7.5",
-    "@KiwanoSwap/uikit": "^0.64.3",
+    "@kiwanoswap/uikit": "^0.64.3",
     "@next/bundle-analyzer": "^12.0.7",
     "@pancakeswap/sdk": "^2.4.5",
     "@reduxjs/toolkit": "^1.5.0",

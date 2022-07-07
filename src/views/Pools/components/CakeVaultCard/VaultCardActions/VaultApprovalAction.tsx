@@ -1,4 +1,4 @@
-import { Button, AutoRenewIcon, Skeleton } from '@KiwanoSwap/uikit'
+import { Button, AutoRenewIcon, Skeleton } from '@kiwanoswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { useVaultApprove } from '../../../hooks/useApprove'
 

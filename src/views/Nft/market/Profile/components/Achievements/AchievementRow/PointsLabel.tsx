@@ -1,4 +1,4 @@
-import { Flex, FlexProps, PrizeIcon, Text } from '@KiwanoSwap/uikit'
+import { Flex, FlexProps, PrizeIcon, Text } from '@kiwanoswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 
 interface PointsLabelProps extends FlexProps {

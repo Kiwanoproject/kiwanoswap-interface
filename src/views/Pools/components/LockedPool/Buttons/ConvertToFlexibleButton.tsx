@@ -1,5 +1,5 @@
 import { memo, useCallback } from 'react'
-import { Button, ButtonProps } from '@KiwanoSwap/uikit'
+import { Button, ButtonProps } from '@kiwanoswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 
 import { useAppDispatch } from 'state'

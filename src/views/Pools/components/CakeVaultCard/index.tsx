@@ -1,4 +1,4 @@
-import { Box, CardBody, CardProps, Flex, Text, TokenPairImage } from '@KiwanoSwap/uikit'
+import { Box, CardBody, CardProps, Flex, Text, TokenPairImage } from '@kiwanoswap/uikit'
 import { useWeb3React } from '@web3-react/core'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { FlexGap } from 'components/Layout/Flex'

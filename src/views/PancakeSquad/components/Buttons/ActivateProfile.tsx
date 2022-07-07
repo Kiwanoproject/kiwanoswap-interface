@@ -1,5 +1,5 @@
 import { NextLinkFromReactRouter } from 'components/NextLink'
-import { Button } from '@KiwanoSwap/uikit'
+import { Button } from '@kiwanoswap/uikit'
 import { ContextApi } from 'contexts/Localization/types'
 import { UserStatusEnum } from 'views/PancakeSquad/types'
 

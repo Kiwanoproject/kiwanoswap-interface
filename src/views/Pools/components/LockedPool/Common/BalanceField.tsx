@@ -1,4 +1,4 @@
-import { BalanceInput, Button, Flex, Image, Slider, Text } from '@KiwanoSwap/uikit'
+import { BalanceInput, Button, Flex, Image, Slider, Text } from '@kiwanoswap/uikit'
 import BigNumber from 'bignumber.js'
 import { useTranslation } from 'contexts/Localization'
 import { Dispatch, memo, SetStateAction, useCallback, useState } from 'react'

@@ -15,7 +15,7 @@ import {
   useTooltip,
   TooltipText,
   Link,
-} from '@KiwanoSwap/uikit'
+} from '@kiwanoswap/uikit'
 import { NextLinkFromReactRouter as RouterLink } from 'components/NextLink'
 import { useWeb3React } from '@web3-react/core'
 

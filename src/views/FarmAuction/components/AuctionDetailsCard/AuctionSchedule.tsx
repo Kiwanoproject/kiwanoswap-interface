@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Text, Flex, Box } from '@KiwanoSwap/uikit'
+import { Text, Flex, Box } from '@kiwanoswap/uikit'
 import { Auction, AuctionStatus } from 'config/constants/types'
 import { useTranslation } from 'contexts/Localization'
 

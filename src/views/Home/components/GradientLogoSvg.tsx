@@ -1,4 +1,4 @@
-import { Svg, SvgProps } from '@KiwanoSwap/uikit'
+import { Svg, SvgProps } from '@kiwanoswap/uikit'
 
 const GradientLogo: React.FC<SvgProps> = (props) => {
   return (

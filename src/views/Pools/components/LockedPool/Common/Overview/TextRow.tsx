@@ -1,4 +1,4 @@
-import { Text, Flex } from '@KiwanoSwap/uikit'
+import { Text, Flex } from '@kiwanoswap/uikit'
 import isUndefinedOrNull from 'utils/isUndefinedOrNull'
 import CrossText from './CrossText'
 

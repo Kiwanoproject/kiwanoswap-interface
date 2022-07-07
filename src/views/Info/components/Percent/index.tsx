@@ -1,4 +1,4 @@
-import { Text, TextProps } from '@KiwanoSwap/uikit'
+import { Text, TextProps } from '@kiwanoswap/uikit'
 
 export interface PercentProps extends TextProps {
   value: number | undefined

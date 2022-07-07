@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Flex, useTooltip } from '@KiwanoSwap/uikit'
+import { Flex, useTooltip } from '@kiwanoswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import CountdownCircle from './CountdownCircle'
 
