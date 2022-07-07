@@ -1,4 +1,4 @@
-import { Currency, Percent, Price } from '@KiwanoSwap/sdk'
+import { Currency, Percent, Price } from '@kiwanoswap/sdk'
 import { Text } from '@kiwanoswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { AutoColumn } from '../../components/Layout/Column'

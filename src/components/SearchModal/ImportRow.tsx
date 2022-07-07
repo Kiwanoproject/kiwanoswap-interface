@@ -1,5 +1,5 @@
 import { CSSProperties } from 'react'
-import { Token } from '@KiwanoSwap/sdk'
+import { Token } from '@kiwanoswap/sdk'
 import { Button, Text, CheckmarkCircleIcon, useMatchBreakpoints } from '@kiwanoswap/uikit'
 import { AutoRow, RowFixed } from 'components/Layout/Row'
 import { AutoColumn } from 'components/Layout/Column'

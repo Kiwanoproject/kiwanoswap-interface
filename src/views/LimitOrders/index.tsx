@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react'
-import { CurrencyAmount, Token, Trade } from '@KiwanoSwap/sdk'
+import { CurrencyAmount, Token, Trade } from '@kiwanoswap/sdk'
 import { Button, Box, Flex, useModal, useMatchBreakpoints, BottomDrawer, Link } from '@kiwanoswap/uikit'
 
 import { useTranslation } from 'contexts/Localization'

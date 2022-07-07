@@ -5,7 +5,7 @@ import BigNumber from 'bignumber.js'
 import { useTranslation } from 'contexts/Localization'
 import Balance from 'components/Balance'
 import { getFullDisplayBalance } from 'utils/formatBalance'
-import { Token } from '@KiwanoSwap/sdk'
+import { Token } from '@kiwanoswap/sdk'
 
 interface MaxStakeRowProps {
   small?: boolean

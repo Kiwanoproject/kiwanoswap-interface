@@ -1,4 +1,4 @@
-import { JSBI, Price, Token } from '@KiwanoSwap/sdk'
+import { JSBI, Price, Token } from '@kiwanoswap/sdk'
 import getRatePercentageDifference from './getRatePercentageDifference'
 import { getRatePercentageMessage, PercentageDirection } from './getRatePercentageMessage'
 

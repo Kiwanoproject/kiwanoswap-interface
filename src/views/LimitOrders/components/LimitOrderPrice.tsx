@@ -1,5 +1,5 @@
 import React from 'react'
-import { Currency, Percent, Price } from '@KiwanoSwap/sdk'
+import { Currency, Percent, Price } from '@kiwanoswap/sdk'
 import styled from 'styled-components'
 import { Input, Flex, Text, Button, AutoRenewIcon, SyncAltIcon, HelpIcon, useTooltip } from '@kiwanoswap/uikit'
 import { useTranslation } from 'contexts/Localization'

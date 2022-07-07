@@ -1,4 +1,4 @@
-import { Price } from '@KiwanoSwap/sdk'
+import { Price } from '@kiwanoswap/sdk'
 import { Text, AutoRenewIcon } from '@kiwanoswap/uikit'
 import { StyledBalanceMaxMini } from './styleds'
 

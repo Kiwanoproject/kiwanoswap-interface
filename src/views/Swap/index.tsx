@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import styled from 'styled-components'
-import { CurrencyAmount, JSBI, Token, Trade } from '@KiwanoSwap/sdk'
+import { CurrencyAmount, JSBI, Token, Trade } from '@kiwanoswap/sdk'
 import {
   Button,
   Text,

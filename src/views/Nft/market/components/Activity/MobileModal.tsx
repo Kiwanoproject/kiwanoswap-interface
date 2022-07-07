@@ -1,5 +1,5 @@
 import { InjectedModalProps, Modal, Flex, Text, Button, Link, BinanceIcon, Box } from '@kiwanoswap/uikit'
-import { Price } from '@KiwanoSwap/sdk'
+import { Price } from '@kiwanoswap/sdk'
 import useTheme from 'hooks/useTheme'
 import { Activity, NftToken } from 'state/nftMarket/types'
 import { LightGreyCard } from 'components/Card'

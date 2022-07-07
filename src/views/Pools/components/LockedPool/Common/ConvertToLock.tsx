@@ -1,4 +1,4 @@
-import { Token } from '@KiwanoSwap/sdk'
+import { Token } from '@kiwanoswap/sdk'
 import { Flex, Message, MessageText, useMatchBreakpoints } from '@kiwanoswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { memo } from 'react'

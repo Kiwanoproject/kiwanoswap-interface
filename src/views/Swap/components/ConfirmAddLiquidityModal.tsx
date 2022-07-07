@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react'
-import { Currency, CurrencyAmount, Fraction, Percent, Token, TokenAmount } from '@KiwanoSwap/sdk'
+import { Currency, CurrencyAmount, Fraction, Percent, Token, TokenAmount } from '@kiwanoswap/sdk'
 import { Flex, InjectedModalProps, Text } from '@kiwanoswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import TransactionConfirmationModal, {

@@ -1,4 +1,4 @@
-import { Trade, TradeType } from '@KiwanoSwap/sdk'
+import { Trade, TradeType } from '@kiwanoswap/sdk'
 import { Text } from '@kiwanoswap/uikit'
 import { Field } from 'state/swap/actions'
 import { useTranslation } from 'contexts/Localization'

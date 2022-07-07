@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react'
-import { Currency, ETHER, JSBI, TokenAmount } from '@KiwanoSwap/sdk'
+import { Currency, ETHER, JSBI, TokenAmount } from '@kiwanoswap/sdk'
 import { Button, ChevronDownIcon, Text, AddIcon, useModal } from '@kiwanoswap/uikit'
 import styled from 'styled-components'
 import { useTranslation } from 'contexts/Localization'

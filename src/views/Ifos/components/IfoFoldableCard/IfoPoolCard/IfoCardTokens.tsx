@@ -14,7 +14,7 @@ import {
   ErrorIcon,
 } from '@kiwanoswap/uikit'
 import { useWeb3React } from '@web3-react/core'
-import { Token } from '@KiwanoSwap/sdk'
+import { Token } from '@kiwanoswap/sdk'
 import { Ifo, PoolIds } from 'config/constants/types'
 import tokens from 'config/constants/tokens'
 import { cakeBnbLpToken } from 'config/constants/ifo'

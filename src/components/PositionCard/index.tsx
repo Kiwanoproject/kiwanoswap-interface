@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { JSBI, Pair, Percent } from '@KiwanoSwap/sdk'
+import { JSBI, Pair, Percent } from '@kiwanoswap/sdk'
 import {
   Button,
   Text,

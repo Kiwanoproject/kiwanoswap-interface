@@ -1,5 +1,5 @@
 import { useCallback, useState } from 'react'
-import { Currency, Token } from '@KiwanoSwap/sdk'
+import { Currency, Token } from '@kiwanoswap/sdk'
 import {
   ModalContainer,
   ModalHeader,

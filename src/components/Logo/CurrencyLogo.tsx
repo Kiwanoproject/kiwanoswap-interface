@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from '@KiwanoSwap/sdk'
+import { Currency, ETHER, Token } from '@kiwanoswap/sdk'
 import { BinanceIcon } from '@kiwanoswap/uikit'
 import { useMemo } from 'react'
 import styled from 'styled-components'

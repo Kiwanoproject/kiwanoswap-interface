@@ -1,4 +1,4 @@
-import { Currency } from '@KiwanoSwap/sdk'
+import { Currency } from '@kiwanoswap/sdk'
 import {
   ArrowDownIcon,
   Button,
