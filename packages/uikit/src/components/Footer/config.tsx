@@ -8,7 +8,7 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Contact",
-        href: "https://docs.KiwanoSwap.io/contact-us",
+        href: "mailto:contact@kiwanoproject.com",
       },
       {
         label: "Blog",
@@ -21,7 +21,7 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Customer",
-        href: "Support https://docs.KiwanoSwap.io/contact-us/customer-support",
+        href: "mailto:contact@kiwanoproject.com",
       },
     ],
   },
@@ -30,7 +30,7 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Audits",
-        href: "https://docs.KiwanoSwap.io/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited",
+        href: "https://docs.kiwanoproject.com/",
       },
     ],
   },
