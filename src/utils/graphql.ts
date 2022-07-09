@@ -6,7 +6,14 @@ import { GraphQLClient } from 'graphql-request'
 // No production env check since production preview might also need them
 export const getGQLHeaders = (endpoint: string) => {
   if (endpoint === INFO_CLIENT) {
-    
+    return {
+      'X-Sf':
+        process.env.NEXT_PUBLIC_SF_HEADER ||
+        // hack for inject CI secret on window
+        (typeof window !== 'undefined' &&
+          // @ts-ignore
+          window.sfHeader),
+    }
   }
   return undefined
 }
@@ -15,7 +22,8 @@ export const infoClient = new GraphQLClient(INFO_CLIENT, { headers: getGQLHeader
 
 export const infoServerClient = new GraphQLClient(INFO_CLIENT, {
   headers: {
-    },
+    'X-Sf': process.env.SF_HEADER,
+  },
   timeout: 5000,
 })
 
