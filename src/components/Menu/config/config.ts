@@ -52,7 +52,7 @@ const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType
       },
       {
         label: t('Docs'),
-        href: 'https://docs.KiwanoSwap.io',
+        href: 'https://docs.kiwanoproject.com',
         type: DropdownMenuItemType.EXTERNAL_LINK,
       },
     ],

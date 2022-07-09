@@ -237,7 +237,7 @@ const ContributeModal: React.FC<Props> = ({
             <Link
               fontSize="12px"
               display="inline"
-              href="https://docs.KiwanoSwap.io/products/ifo-initial-farm-offering"
+              href="https://docs.kiwanoproject.com/products/ifo-initial-farm-offering"
               external
             >
               {t('Read more')}

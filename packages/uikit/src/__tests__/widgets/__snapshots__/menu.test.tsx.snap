@@ -2169,7 +2169,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c60 c61"
                     color="#F4EEFF"
-                    href="https://docs.KiwanoSwap.io/contact-us"
+                    href="https://docs.kiwanoproject.com/contact-us"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2195,7 +2195,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c60 c61"
                     color="#F4EEFF"
-                    href="https://docs.KiwanoSwap.io/contact-us/telegram"
+                    href="https://docs.kiwanoproject.com/contact-us/telegram"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2208,7 +2208,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c60 c61"
                     color="#F4EEFF"
-                    href="https://docs.KiwanoSwap.io/tokenomics/cake"
+                    href="https://docs.kiwanoproject.com/tokenomics/cake"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2252,7 +2252,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c60 c61"
                     color="#F4EEFF"
-                    href="Support https://docs.KiwanoSwap.io/contact-us/customer-support"
+                    href="Support https://docs.kiwanoproject.com/contact-us/customer-support"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2265,7 +2265,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c60 c61"
                     color="#F4EEFF"
-                    href="https://docs.KiwanoSwap.io/help/troubleshooting"
+                    href="https://docs.kiwanoproject.com/help/troubleshooting"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2278,7 +2278,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c60 c61"
                     color="#F4EEFF"
-                    href="https://docs.KiwanoSwap.io/get-started"
+                    href="https://docs.kiwanoproject.com/get-started"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2313,7 +2313,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c60 c61"
                     color="#F4EEFF"
-                    href="https://docs.KiwanoSwap.io"
+                    href="https://docs.kiwanoproject.com"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2339,7 +2339,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c60 c61"
                     color="#F4EEFF"
-                    href="https://docs.KiwanoSwap.io/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited"
+                    href="https://docs.kiwanoproject.com/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2352,7 +2352,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c60 c61"
                     color="#F4EEFF"
-                    href="https://docs.KiwanoSwap.io/hiring/become-a-chef"
+                    href="https://docs.kiwanoproject.com/hiring/become-a-chef"
                     rel="noreferrer noopener"
                     target="_blank"
                   >

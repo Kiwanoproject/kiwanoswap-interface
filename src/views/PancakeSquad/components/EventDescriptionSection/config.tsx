@@ -35,7 +35,7 @@ const eventDescriptionConfigBuilder = ({ t }: EventDescriptionType) => ({
     },
   ],
   primaryButton: {
-    to: 'https://docs.KiwanoSwap.io/',
+    to: 'https://docs.kiwanoproject.com/',
     text: t('View Documentation'),
     external: true,
     isDisplayed: false,

@@ -332,7 +332,7 @@ const HowToPlay: React.FC = () => {
                 {t(
                   'An average total of 35,000 WANO from the treasury is added to lottery rounds over the course of a week. This WANO is of course also included in rollovers! Read more in our guide to ',
                 )}
-                <InlineLink href="https://docs.KiwanoSwap.io/tokenomics/cake/cake-tokenomics">
+                <InlineLink href="https://docs.kiwanoproject.com/tokenomics/cake/cake-tokenomics">
                   {t('WANO Tokenomics')}
                 </InlineLink>
               </Text>
@@ -352,7 +352,7 @@ const HowToPlay: React.FC = () => {
           </Heading>
           <Text>
             {t('Check our in-depth guide on')}{' '}
-            <InlineLink href="https://docs.KiwanoSwap.io/products/lottery/lottery-guide">
+            <InlineLink href="https://docs.kiwanoproject.com/products/lottery/lottery-guide">
               {t('how to play the KiwanoSwap lottery!')}
             </InlineLink>
           </Text>
